@@ -13,6 +13,7 @@ I’m a Biomedical Engineering graduate with experience in:
 ---
 
 ## Projects
+[View my projects](projects.md)
 **Pulsatile Cerebrovascular Flow Simulator**  
 Closed-loop peristaltic pump system simulating ICA/MCA flow waveforms for interventional training.
 
