@@ -5,3 +5,7 @@ description: Biomedical Engineering Portfolio
 
 plugins:
   - jekyll-include-cache
+
+header_pages:
+  - index.md
+  - projects.md
