@@ -1,35 +1,17 @@
 ---
-layout: default
-title: Home
+layout: home
+author_profile: true
 ---
 
-# Hi, I’m Aiden 
+## Hi, I’m Aiden 👋
 
-I’m a Biomedical Engineering graduate with experience in:
-- Medical device prototyping
-- Research & data analysis
-- Microfluidics and pump system design
+Biomedical Engineering graduate focused on applied engineering, signal processing, and medical device development.
 
 ---
 
-## Projects
-[View my projects](projects.md)
-**Pulsatile Cerebrovascular Flow Simulator**  
-Closed-loop peristaltic pump system simulating ICA/MCA flow waveforms for interventional training.
+## Featured Project
 
-**Cell Culture & Laboratory Techniques**  
-Hands-on experience with sterile technique, experimental protocols and data documentation.
+### Pulsatile Cerebrovascular Flow Simulator
+Closed-loop peristaltic pump system simulating physiological ICA/MCA flow waveforms.
 
----
-
-## Skills
-- Biomedical instrumentation
-- Arduino & embedded systems
-- Data analysis (MATLAB / Python)
-- Technical documentation & reporting
-
----
-
-## Contact
-📧 aiden.vangreuning@torontomu.ca  
-🔗 GitHub: https://github.com/aiden-vangreuning
+[View all projects →](/projects/)
