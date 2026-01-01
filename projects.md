@@ -1,12 +1,19 @@
 ---
-layout: default
+layout: single
 title: Projects
+permalink: /projects/
 ---
 
-# Projects
-
 ## Pulsatile Cerebrovascular Flow Simulator
-Closed-loop peristaltic pump system simulating ICA/MCA flow waveforms for interventional neuroradiology training.
+**Tools:** Arduino, stepper motor control, flow/pressure sensors
 
-## Cell Culture & Laboratory Techniques
-Sterile technique, experimental protocols, data collection and documentation in a laboratory setting.
+- Designed physiological waveform generation
+- Implemented real-time data logging
+- Validated flow ranges against literature
+
+🔗 GitHub repo (if public)
+
+---
+
+## Signal Processing Projects
+Short description + tools + outcome.
