@@ -3,6 +3,9 @@ remote_theme: mmistakes/minimal-mistakes
 title: Aiden Van Greuning
 description: Biomedical Engineering Portfolio
 
+url: "https://aiden-vangreuning.github.io"
+baseurl: "/aiden-vangreuning"
+
 plugins:
   - jekyll-include-cache
 
