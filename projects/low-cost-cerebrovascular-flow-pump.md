@@ -28,34 +28,38 @@ Custom control logic was implemented to regulate flow rate and pressure behaviou
 ---
 
 ## Flow Modeling & Data Analysis
-Physiological flow and pressure dynamics were modeled and evaluated using fundamental fluid mechanics principles, including **Poiseuille’s Law**. Flow sensor data were collected and analyzed to validate system performance, repeatability and stability under controlled experimental conditions.
+Physiological flow and pressure dynamics were modeled and evaluated using fundamental fluid mechanics principles, including **Poiseuille’s Law**. Flow sensor data were collected and analyzed to validate system performance, repeatability, and stability under controlled experimental conditions.
 
 ---
 
-## Outcomes & Contributions
-- Designed and implemented a fully functional cerebrovascular flow simulation system at significantly reduced cost  
-- Achieved physiologically realistic flow and pressure dynamics using a blood analog fluid  
-- Demonstrated repeatable and stable performance suitable for experimental training  
-- Developed a modular platform supporting future catheter-based and sensing extensions  
+{: .notice--primary}
+**Key Outcomes & Contributions**
+- Fully functional cerebrovascular flow simulation system at significantly reduced cost  
+- Physiologically realistic flow and pressure dynamics using a blood analog fluid  
+- Repeatable and stable performance suitable for experimental training applications  
+- Modular platform supporting future catheter-based and sensing extensions  
 
 ---
 
 ## System Visualization
 
 ### Complete Pump System
-![Complete Pump System]({{ site.baseurl }}/assets/images/capstone/full-pump-system-with-circle-of-willis-model.jpg)
-
-*Final assembled cerebrovascular flow pump integrated with a 3D-printed Circle of Willis model for experimental validation.*
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/capstone/full-pump-system-with-circle-of-willis-model.jpg"
+       alt="Complete cerebrovascular flow pump system">
+  <figcaption>
+    Final assembled low-cost cerebrovascular flow pump integrated with a 3D-printed Circle of Willis model for experimental validation.
+  </figcaption>
+</figure>
 
 ### Presentation Board
 ![Capstone Presentation Board]({{ site.baseurl }}/assets/images/capstone/vy09-presentation-board.png)
-
 
 ---
 
 ## Technical Documentation
 - 📄 **[Final Capstone Report (PDF)]({{ site.baseurl }}/assets/pdf/BME_FINAL_EDP_REPORT_VY09_2025.pdf)**  
-  *(Full 40+ page technical report detailing design, modeling, validation and results)*
+  *(40+ page technical report detailing system design, modeling, validation, and results)*
 
 ---
 
