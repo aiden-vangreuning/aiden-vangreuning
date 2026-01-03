@@ -50,8 +50,8 @@ Prototyping · Biomedical System Design
 ## Supporting Materials
 
 - 📄 [Final Capstone Report (PDF)]({{ site.baseurl }}/assets/pdf/BME_FINAL_EDP_REPORT_VY09_2025.pdf)
-- 📊 [Presentation Board]({{ site.baseurl }}/assets/images/capstone/presentation-board.jpg)
-- 📷 [Complete Pump System]({{ site.baseurl }}/assets/images/capstone/pump-system.jpg)
+- 📊 [Presentation Board]({{ site.baseurl }}assets/images/capstone/VY09 Presentation Board.png)
+- 📷 [Complete Pump System]({{ site.baseurl }}assets/images/capstone/Full pump system with Circle Of Willis model.jpg)
 
 *(Full technical report and supporting visuals are provided for detailed review.)*
 
