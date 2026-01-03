@@ -48,11 +48,12 @@ Prototyping · Biomedical System Design
 ---
 
 ## Supporting Materials
-- 📄 [Final Capstone Report (PDF)](assets/pdf/BME_FINAL_EDP_REPORT_VY09_2025.pdf)
-- 📊 [Presentation Board](/assets/images/capstone/presentation-board.jpg)
-- 📷 [Complete Pump System](/assets/images/capstone/pump-system.jpg)
 
-*(Supporting materials available upon request or linked below.)*
+- 📄 [Final Capstone Report (PDF)]({{ site.baseurl }}/assets/pdf/BME_FINAL_EDP_REPORT_VY09_2025.pdf)
+- 📊 [Presentation Board]({{ site.baseurl }}/assets/images/capstone/presentation-board.jpg)
+- 📷 [Complete Pump System]({{ site.baseurl }}/assets/images/capstone/pump-system.jpg)
+
+*(Full technical report and supporting visuals are provided for detailed review.)*
 
 ---
 
