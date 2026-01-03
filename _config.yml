@@ -1,4 +1,6 @@
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: air
+
 
 title: Aiden Van Greuning
 description: Biomedical Engineering Portfolio
