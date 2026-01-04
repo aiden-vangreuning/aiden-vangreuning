@@ -14,7 +14,3 @@ plugins:
 header_pages:
   - index.md
   - projects.md
-
-css:
-  - /assets/css/custom.css
-
