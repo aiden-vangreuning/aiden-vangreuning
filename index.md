@@ -26,38 +26,73 @@ I’m broadly interested in biomedical research and engineering — spanning med
 ---
 
 ## Areas of Interest & Experience
-- 🧠 Biomedical signal processing and data analysis  
-- ⚙️ Experimental system design and prototyping  
-- 🔬 Cell culture and wet-lab techniques  
-- ☢️ Radiation therapy, medical imaging, and computational dose modeling  
-- 🧬 Tissue engineering, BioMEMS, and microscale systems  
-- 📊 Research-driven problem solving and collaboration  
+- Biomedical signal processing and data analysis  
+- Experimental system design and prototyping  
+- Cell culture and wet-lab techniques  
+- Radiation therapy, medical imaging, and computational dose modeling  
+- Tissue engineering, BioMEMS, and microscale systems  
+- Research-driven problem solving and collaboration  
 
 ---
 
-## Featured Work
+<section class="projects">
+  <h2>Selected Projects</h2>
 
-### Low Cost Cerebrovascular Flow Pump (Undergraduate Capstone) 
-Independently designed and built a low-cost, Arduino-controlled pulsatile pump system integrated with a 3D-printed Circle of Willis model to replicate physiological cerebral blood flow for interventional neuroradiology training and research.   
-[View project →](projects/low-cost-cerebrovascular-flow-pump)
+  <div class="project-grid">
 
-### Wearable EEG & Fluid-Based BioMEMS Device (Concept Design)
-Developed a conceptual wearable system integrating EEG sensing and fluid-based biomarker monitoring to predict stress-driven habit relapse, addressing challenges in miniaturization, biomarker stability and user comfort. 
-[View project →](projects/conceptual-eeg-and-biomems-device-design)
+    <a href="/projects/low-cost-cerebrovascular-flow-pump" class="project-card">
+      <h3>Low-Cost Cerebrovascular Flow Pump</h3>
+      <p class="project-meta">Undergraduate Capstone · Experimental System Design</p>
+      <p>
+        Independently designed and built a low-cost, Arduino-controlled pulsatile
+        pump system integrated with a 3D-printed Circle of Willis model to replicate
+        physiological cerebral blood flow.
+      </p>
+    </a>
 
-### Signal Processing of Cerebromicrovascular Disease
-Applied signal processing and machine learning techniques to ECG data from elderly diabetic patients, implementing the Pan–Tompkins algorithm for feature extraction and achieving classification performance exceeding reported literature benchmarks.  
-[View project →](projects/signal-processing-cerebromicrovascular-disease)
+    <a href="/projects/conceptual-eeg-and-biomems-device-design" class="project-card">
+      <h3>Wearable EEG & Fluid-Based BioMEMS Device</h3>
+      <p class="project-meta">Conceptual Design · Microsystems & Sensing</p>
+      <p>
+        Developed a conceptual wearable integrating EEG sensing and fluid-based
+        biomarker monitoring to predict stress-driven habit relapse, addressing
+        miniaturization and biomarker stability challenges.
+      </p>
+    </a>
 
-### Radiation Therapy Simulation & Treatment Planning
-Built theoretical and computational expertise in radiation therapy through simulation-based studies of radiation interactions, LINAC systems and dose calculation; culminating in a proposed AI- and Monte Carlo–based adaptive treatment planning framework.  
-[View project →](projects/radiation-therapy-simulation-and-research)
+    <a href="/projects/signal-processing-cerebromicrovascular-disease" class="project-card">
+      <h3>Signal Processing of Cerebromicrovascular Disease</h3>
+      <p class="project-meta">Biomedical Signal Processing · Data Analysis</p>
+      <p>
+        Applied signal processing and machine learning techniques to ECG data from
+        elderly diabetic patients, implementing the Pan–Tompkins algorithm for
+        feature extraction and classification.
+      </p>
+    </a>
 
-### Cell Culture & Tissue Engineering Laboratory Work
-Conducted CL2 laboratory experiments involving live cell handling, microscopy, and cellular assays, applying aseptic techniques and biosafety protocols while producing data-driven technical laboratory reports.  
-[View project →](projects/cell-culture-laboratory-experiments)
+    <a href="/projects/radiation-therapy-simulation-and-research" class="project-card">
+      <h3>Radiation Therapy Simulation & Treatment Planning</h3>
+      <p class="project-meta">Medical Physics · Computational Modeling</p>
+      <p>
+        Built computational and theoretical expertise in radiation therapy through
+        simulation-based studies of radiation interactions, LINAC systems, and
+        dose calculation methods.
+      </p>
+    </a>
 
----
+    <a href="/projects/cell-culture-laboratory-experiments" class="project-card">
+      <h3>Cell Culture & Tissue Engineering Laboratory Work</h3>
+      <p class="project-meta">Wet-Lab Research · CL2 Laboratory Techniques</p>
+      <p>
+        Conducted CL2 laboratory experiments involving live cell handling,
+        microscopy, and cellular assays while applying aseptic technique and
+        biosafety protocols.
+      </p>
+    </a>
+
+  </div>
+</section>
+
 
 📫 **Contact**  
 [LinkedIn](https://www.linkedin.com/in/aiden-van-greuning-512944290/) · [GitHub](https://github.com/aiden-vangreuning) · Email: aiden.vangreuning@torontomu.ca
