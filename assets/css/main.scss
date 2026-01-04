@@ -92,4 +92,18 @@ a:hover {
   max-width: 100%;
 }
 
+/* =========================
+   Custom Homepage Layout
+   ========================= */
+
+.home-hero {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* More breathing room between homepage sections */
+.home-hero > * + * {
+  margin-top: 4rem;
+}
 
