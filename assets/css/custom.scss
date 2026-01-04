@@ -1,3 +1,6 @@
+---
+---
+
 /* Accent color */
 a {
   color: #0055a5;
@@ -24,6 +27,7 @@ a:hover {
 }
 
 /* Images */
-figure img {
+figure img,
+img {
   border-radius: 8px;
 }
