@@ -33,7 +33,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
 - Tissue engineering, BioMEMS, and microscale systems  
 - Research-driven problem solving and collaboration  
 
----
+
 <section class="projects">
   <h2>Selected Projects</h2>
 
