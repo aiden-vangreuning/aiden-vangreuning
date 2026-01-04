@@ -34,64 +34,61 @@ I’m broadly interested in biomedical research and engineering — spanning med
 - Research-driven problem solving and collaboration  
 
 ---
-
 <section class="projects">
   <h2>Selected Projects</h2>
 
   <div class="project-grid">
 
-    <a href="/projects/low-cost-cerebrovascular-flow-pump" class="project-card">
+    <a href="{{ site.baseurl }}/projects/low-cost-cerebrovascular-flow-pump" class="project-card">
       <h3>Low-Cost Cerebrovascular Flow Pump</h3>
-      <p class="project-meta">Undergraduate Capstone · Experimental System Design</p>
+      <p class="project-meta">Capstone · Experimental System Design</p>
       <p>
-        Independently designed and built a low-cost, Arduino-controlled pulsatile
-        pump system integrated with a 3D-printed Circle of Willis model to replicate
-        physiological cerebral blood flow.
+        Independently designed and built a low-cost, Arduino-controlled pulsatile pump
+        integrated with a 3D-printed Circle of Willis model to replicate physiological
+        cerebral blood flow for interventional neuroradiology training and research.
       </p>
     </a>
 
-    <a href="/projects/conceptual-eeg-and-biomems-device-design" class="project-card">
-      <h3>Wearable EEG & Fluid-Based BioMEMS Device</h3>
-      <p class="project-meta">Conceptual Design · Microsystems & Sensing</p>
+    <a href="{{ site.baseurl }}/projects/cell-culture-laboratory-experiments" class="project-card">
+      <h3>Cell Culture & Tissue Engineering</h3>
+      <p class="project-meta">Wet-Lab & CL2 Laboratory Work</p>
       <p>
-        Developed a conceptual wearable integrating EEG sensing and fluid-based
-        biomarker monitoring to predict stress-driven habit relapse, addressing
-        miniaturization and biomarker stability challenges.
+        Conducted live cell culture, microscopy, and cellular assays using aseptic
+        technique and biosafety protocols, producing data-driven technical reports.
       </p>
     </a>
 
-    <a href="/projects/signal-processing-cerebromicrovascular-disease" class="project-card">
-      <h3>Signal Processing of Cerebromicrovascular Disease</h3>
-      <p class="project-meta">Biomedical Signal Processing · Data Analysis</p>
+    <a href="{{ site.baseurl }}/projects/signal-processing-cerebromicrovascular-disease" class="project-card">
+      <h3>Biomedical Signal Processing</h3>
+      <p class="project-meta">Data Analysis & Algorithms</p>
       <p>
-        Applied signal processing and machine learning techniques to ECG data from
-        elderly diabetic patients, implementing the Pan–Tompkins algorithm for
-        feature extraction and classification.
+        Applied signal processing and machine learning techniques to physiological
+        ECG data, implementing the Pan–Tompkins algorithm for feature extraction
+        and classification.
       </p>
     </a>
 
-    <a href="/projects/radiation-therapy-simulation-and-research" class="project-card">
-      <h3>Radiation Therapy Simulation & Treatment Planning</h3>
-      <p class="project-meta">Medical Physics · Computational Modeling</p>
+    <a href="{{ site.baseurl }}/projects/radiation-therapy-simulation-and-research" class="project-card">
+      <h3>Radiation Therapy Simulation</h3>
+      <p class="project-meta">Medical Physics & Computational Modeling</p>
       <p>
-        Built computational and theoretical expertise in radiation therapy through
-        simulation-based studies of radiation interactions, LINAC systems, and
-        dose calculation methods.
+        Developed computational and theoretical expertise in radiation transport,
+        LINAC systems, and dose calculation through simulation-based treatment planning.
       </p>
     </a>
 
-    <a href="/projects/cell-culture-laboratory-experiments" class="project-card">
-      <h3>Cell Culture & Tissue Engineering Laboratory Work</h3>
-      <p class="project-meta">Wet-Lab Research · CL2 Laboratory Techniques</p>
+    <a href="{{ site.baseurl }}/projects/conceptual-eeg-and-biomems-device-design" class="project-card">
+      <h3>Wearable EEG & BioMEMS Concept</h3>
+      <p class="project-meta">Systems Design & Miniaturization</p>
       <p>
-        Conducted CL2 laboratory experiments involving live cell handling,
-        microscopy, and cellular assays while applying aseptic technique and
-        biosafety protocols.
+        Designed a conceptual wearable integrating EEG sensing and microfluidic
+        biomarker monitoring to predict stress-driven behavioral relapse.
       </p>
     </a>
 
   </div>
 </section>
+
 
 
 📫 **Contact**  
