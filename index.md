@@ -5,6 +5,11 @@ title: Home
 
 ## Hi, I’m Aiden Van Greuning.
 
+<img src="{{ site.baseurl }}/assets/images/profile.jpg"
+     alt="Aiden Van Greuning"
+     style="max-width:160px; border-radius:50%; margin-bottom:1rem;">
+
+
 I’m a Biomedical Engineering graduate with hands-on experience across experimental system design, signal processing, and applied biomedical research. My work includes developing a low-cost cerebrovascular flow pump for interventional neuroradiology training, alongside experience in wet-lab techniques, computational analysis, microscale biomedical systems and radiation-based medical technologies.
 
 I’m broadly interested in biomedical research and engineering — spanning medical devices, radiation therapy and medical physics, cell and tissue engineering, BioMEMS and molecular-scale technologies — with a focus on translating theory into practical, accessible solutions.
