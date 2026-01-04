@@ -25,6 +25,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
 
 ---
 
+<div class="section-soft">
 ## Areas of Interest & Experience
 - Biomedical signal processing and data analysis  
 - Experimental system design and prototyping  
@@ -32,7 +33,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
 - Radiation therapy, medical imaging, and computational dose modeling  
 - Tissue engineering, BioMEMS, and microscale systems  
 - Research-driven problem solving and collaboration  
-
+</div>
 
 <section class="projects">
   <h2>Selected Projects</h2>
