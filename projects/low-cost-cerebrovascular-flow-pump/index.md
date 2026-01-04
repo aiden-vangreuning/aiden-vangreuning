@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Low-Cost Cerebrovascular Flow Pump
+permalink: /projects/low-cost-cerebrovascular-flow-pump/
 ---
 
 ## Overview
