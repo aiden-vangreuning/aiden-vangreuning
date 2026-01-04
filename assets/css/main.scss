@@ -14,7 +14,7 @@ a:hover {
 
 /* Section spacing */
 .page__content h2 {
-  margin-top: 2.8rem;
+  margin-top: 3.5rem;
   padding-bottom: 0.3rem;
   border-bottom: 2px solid #e6e6e6;
 }
@@ -64,3 +64,14 @@ a:hover {
 .project-card:hover h3 {
   color: #0055a5;
 }
+
+/* Widen main content area for portfolio layouts */
+.page__content {
+  max-width: 1100px;
+}
+
+/* Optional: slightly increase card breathing room */
+.project-grid {
+  margin-top: 2rem;
+}
+
