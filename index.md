@@ -11,7 +11,7 @@ title: Home
   <div class="hero__text">
     <h1>Aiden Van Greuning</h1>
     <p class="hero__tagline">
-      Biomedical Engineering graduate focused on experimental systems,
+      Biomedical Engineering graduate focused on experimental system design,
       signal processing and translational biomedical research.
     </p>
   </div>
