@@ -2,12 +2,21 @@
 layout: home
 title: Home
 ---
+<div class="hero">
 
-## Hi, I’m Aiden Van Greuning.
+  <img src="{{ site.baseurl }}/assets/images/profile.jpg"
+       alt="Aiden Van Greuning"
+       class="hero__image">
 
-<img src="{{ site.baseurl }}/assets/images/profile.jpg"
-     alt="Aiden Van Greuning"
-     style="max-width:160px; border-radius:50%; margin-bottom:1rem;">
+  <div class="hero__text">
+    <h1>Aiden Van Greuning</h1>
+    <p class="hero__tagline">
+      Biomedical Engineering graduate focused on experimental systems,
+      signal processing and translational biomedical research.
+    </p>
+  </div>
+
+</div>
 
 
 I’m a Biomedical Engineering graduate with hands-on experience across experimental system design, signal processing, and applied biomedical research. My work includes developing a low-cost cerebrovascular flow pump for interventional neuroradiology training, alongside experience in wet-lab techniques, computational analysis, microscale biomedical systems and radiation-based medical technologies.
