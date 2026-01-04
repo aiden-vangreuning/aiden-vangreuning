@@ -36,10 +36,10 @@ I’m broadly interested in biomedical research and engineering — spanning med
 
 <section class="projects">
   <h2>Selected Projects</h2>
-
-  <div class="project-grid">
-
-    <a href="{{ site.baseurl }}/projects/low-cost-cerebrovascular-flow-pump" class="project-card">
+ <!-- Featured Capstone -->
+  <div class="featured-project">
+    <a href="{{ site.baseurl }}/projects/low-cost-cerebrovascular-flow-pump"
+       class="project-card featured-card">
       <h3>Low-Cost Cerebrovascular Flow Pump</h3>
       <p class="project-meta">Capstone · Experimental System Design</p>
       <p>
@@ -48,6 +48,10 @@ I’m broadly interested in biomedical research and engineering — spanning med
         cerebral blood flow for interventional neuroradiology training and research.
       </p>
     </a>
+  </div>
+
+
+  <div class="project-grid">
 
     <a href="{{ site.baseurl }}/projects/cell-culture-laboratory-experiments" class="project-card">
       <h3>Cell Culture & Tissue Engineering</h3>
