@@ -217,15 +217,6 @@ a:hover {
    Poster / Large Figure Handling
    ========================= */
 
-/* Capstone poster sizing */
-.poster-preview img {
-  max-width: 100%;
-  max-height: 600px;
-  width: auto;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
 
 /* Prevent horizontal scrolling from large images */
 .page__content img {
@@ -245,6 +236,18 @@ a:hover {
   background: #0055a5;
   margin-top: 0.4rem;
   border-radius: 2px;
+}
+
+
+/* Capstone poster sizing */
+.poster-preview img {
+  max-width: 100%;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
 }
 
 
