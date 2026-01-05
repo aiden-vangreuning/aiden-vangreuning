@@ -59,7 +59,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
 </div>
 
 
-<section class="projects">
+<section id="projects" class="projects">
   <h2>Selected Projects</h2>
  <!-- Featured Capstone -->
   <div class="featured-project">
