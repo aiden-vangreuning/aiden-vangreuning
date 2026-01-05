@@ -116,4 +116,4 @@ I’m broadly interested in biomedical research and engineering — spanning med
 
 
 📫 **Contact**  
-[LinkedIn](https://www.linkedin.com/in/aiden-van-greuning-512944290/) · [GitHub](https://github.com/aiden-vangreuning) · Email: aiden.vangreuning@torontomu.ca
+Email: aiden.vangreuning@torontomu.ca
