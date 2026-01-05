@@ -1,7 +1,8 @@
 ---
 layout: home-custom
 title: Home
----<section class="hero">
+---
+<section class="hero">
   <div class="hero-inner">
 
     <div class="hero-text">
