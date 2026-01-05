@@ -202,3 +202,14 @@ a:hover {
   padding: 3rem 2rem;
   border-radius: 16px;
 }
+
+.featured-card {
+  border-width: 2px;
+  border-color: #0055a5;
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f8fbff
+  );
+}
+
