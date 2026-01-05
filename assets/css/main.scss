@@ -3,7 +3,10 @@
 
 @import "minimal-mistakes";
 
-/* Accent color */
+/* =========================
+   Global Accent Colors
+   ========================= */
+
 a {
   color: #0055a5;
 }
@@ -12,7 +15,10 @@ a:hover {
   color: #003d7a;
 }
 
-/* Section spacing */
+/* =========================
+   Headings & Section Spacing
+   ========================= */
+
 .page__content h2 {
   margin-top: 3.5rem;
   padding-bottom: 0.3rem;
@@ -20,7 +26,98 @@ a:hover {
 }
 
 /* =========================
-   Project Cards
+   Layout Width Adjustments
+   ========================= */
+
+/* Allow wider layouts without full bleed */
+.page__inner-wrap {
+  max-width: 1200px;
+}
+
+.page__content {
+  max-width: 100%;
+}
+
+/* =========================
+   Homepage Wrapper
+   ========================= */
+
+.home-hero {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+/* Vertical rhythm between homepage sections */
+.home-hero > * + * {
+  margin-top: 4rem;
+}
+
+/* =========================
+   Hero Section (Option A)
+   ========================= */
+
+.hero {
+  padding: 4rem 0;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-role {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #0055a5;
+  margin-bottom: 1rem;
+}
+
+.hero-blurb {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+.hero-actions {
+  margin-top: 1.8rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-image img {
+  max-width: 280px;
+  border-radius: 50%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Mobile fallback */
+@media (max-width: 768px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-image img {
+    margin: 0 auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+}
+
+/* =========================
+   Projects Section
    ========================= */
 
 .projects {
@@ -31,6 +128,14 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Center grid without constraining entire page */
+.projects .project-grid {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-card {
@@ -52,65 +157,25 @@ a:hover {
   border-color: #0055a5;
 }
 
-/* Normalize project card text colors */
+/* Normalize card text colors */
 .project-card,
 .project-card h3,
 .project-card p {
   color: #222;
 }
 
-/* Hover accent (intentional) */
+/* Intentional hover accent */
 .project-card:hover,
 .project-card:hover h3 {
   color: #0055a5;
 }
 
-/* Widen main content area for portfolio layouts */
-.page__content {
-  max-width: 100%;
-}
-
-/* Optional: slightly increase card breathing room */
-.project-grid {
-  margin-top: 2rem;
-}
-
-/* Slightly center project grid independently */
-.projects .project-grid {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Widen main content area for portfolio layout */
-.page__inner-wrap {
-  max-width: 1200px;
-}
-
-/* Slightly widen text content without going full-width */
-.page__content {
-  max-width: 100%;
-}
-
 /* =========================
-   Custom Homepage Layout
+   Soft Highlight Sections
    ========================= */
 
-.home-hero {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 3rem 2rem;
-}
-
-/* More breathing room between homepage sections */
-.home-hero > * + * {
-  margin-top: 4rem;
-}
-
-/* Light section contrast */
 .section-soft {
   background: #f7f9fc;
   padding: 3rem 2rem;
   border-radius: 16px;
 }
-
