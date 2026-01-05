@@ -24,16 +24,18 @@ I’m a Biomedical Engineering graduate with hands-on experience across experime
 I’m broadly interested in biomedical research and engineering — spanning medical devices, radiation therapy and medical physics, cell and tissue engineering, BioMEMS and molecular-scale technologies — with a focus on translating theory into practical, accessible solutions.
 
 ---
-
 <div class="section-soft">
-## Areas of Interest & Experience
-- Biomedical signal processing and data analysis  
-- Experimental system design and prototyping  
-- Cell culture and wet-lab techniques  
-- Radiation therapy, medical imaging, and computational dose modeling  
-- Tissue engineering, BioMEMS, and microscale systems  
-- Research-driven problem solving and collaboration  
+  <h2>Areas of Interest & Experience</h2>
+  <ul>
+    <li>Biomedical signal processing and data analysis</li>
+    <li>Experimental system design and prototyping</li>
+    <li>Cell culture and wet-lab techniques</li>
+    <li>Radiation therapy, medical imaging and computational dose modeling</li>
+    <li>Tissue engineering, BioMEMS and microscale systems</li>
+    <li>Research-driven problem solving and collaboration</li>
+  </ul>
 </div>
+
 
 <section class="projects">
   <h2>Selected Projects</h2>
