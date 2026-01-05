@@ -1,0 +1,15 @@
+main:
+  - title: "Home"
+    url: /
+
+  - title: "Projects"
+    url: /#projects
+
+  - title: "CV"
+    url: /assets/Aiden_Van_Greuning_CV.pdf
+
+  - title: "LinkedIn"
+    url: https://www.linkedin.com/in/aiden-van-greuning-512944290/
+
+  - title: "GitHub"
+    url: https://github.com/aiden-vangreuning
