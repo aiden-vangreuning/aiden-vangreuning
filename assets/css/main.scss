@@ -43,8 +43,11 @@ a:hover {
    ========================= */
 
 .home-hero {
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.05rem;
+  line-height: 1.7;
   padding: 3rem 2rem;
 }
 
@@ -111,9 +114,30 @@ a:hover {
     margin: 0 auto;
   }
 
-  .hero-actions {
+  .hero-actions 
     justify-content: center;
   }
+}
+
+/* Make hero feel more like a landing section */
+.hero {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Soft visual divider after hero */
+.hero::after {
+  content: "";
+  display: block;
+  margin-top: 4rem;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 0, 0, 0.15),
+    transparent
+  );
 }
 
 /* =========================
