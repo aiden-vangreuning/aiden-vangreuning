@@ -213,3 +213,37 @@ a:hover {
   );
 }
 
+/* =========================
+   Poster / Large Figure Handling
+   ========================= */
+
+.poster-preview img {
+  max-width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Prevent horizontal scrolling from large images */
+.page__content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page__content h2 {
+  position: relative;
+}
+
+.page__content h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0055a5;
+  margin-top: 0.4rem;
+  border-radius: 2px;
+}
+
+
+
