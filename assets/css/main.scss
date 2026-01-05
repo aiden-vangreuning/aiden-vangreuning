@@ -29,7 +29,6 @@ a:hover {
    Layout Width Adjustments
    ========================= */
 
-/* Allow wider layouts without full bleed */
 .page__inner-wrap {
   max-width: 1200px;
 }
@@ -39,29 +38,14 @@ a:hover {
 }
 
 /* =========================
-   Homepage Wrapper
-   ========================= */
-
-.home-hero {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1.05rem;
-  line-height: 1.7;
-  padding: 3rem 2rem;
-}
-
-/* Vertical rhythm between homepage sections */
-.home-hero > * + * {
-  margin-top: 4rem;
-}
-
-/* =========================
-   Hero Section (Option A)
+   HERO SECTION — OPTION A
    ========================= */
 
 .hero {
-  padding: 4rem 0;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
 }
 
 .hero-inner {
@@ -103,30 +87,7 @@ a:hover {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* Mobile fallback */
-@media (max-width: 768px) {
-  .hero-inner {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .hero-image img {
-    margin: 0 auto;
-  }
-
-  .hero-actions 
-    justify-content: center;
-  }
-}
-
-/* Make hero feel more like a landing section */
-.hero {
-  min-height: 75vh;
-  display: flex;
-  align-items: center;
-}
-
-/* Soft visual divider after hero */
+/* Soft divider after hero */
 .hero::after {
   content: "";
   display: block;
@@ -138,6 +99,45 @@ a:hover {
     rgba(0, 0, 0, 0.15),
     transparent
   );
+}
+
+/* =========================
+   HERO — RESPONSIVE CONTROL
+   ========================= */
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-image img {
+    margin: 2rem auto 0;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+}
+
+/* =========================
+   BODY CONTENT WRAPPER
+   ========================= */
+
+.home-hero {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+/* Vertical rhythm between homepage sections */
+.home-hero > * + * {
+  margin-top: 4rem;
 }
 
 /* =========================
@@ -155,7 +155,6 @@ a:hover {
   margin-top: 2rem;
 }
 
-/* Center grid without constraining entire page */
 .projects .project-grid {
   max-width: 1200px;
   margin-left: auto;
