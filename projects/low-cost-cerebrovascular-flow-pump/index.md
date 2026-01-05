@@ -9,6 +9,12 @@ This project involved the independent design and development of a low-cost pulsa
 
 Typically assigned to a four-person team, the project was executed independently and focused on achieving accurate flow and pressure dynamics using accessible components and a modular, research-oriented system architecture.
 
+{: .notice--info}
+**Project Type:** Independent Capstone Design and Protoype  
+**Duration:** 8 months  
+**Focus Areas:** Pulsatile Flow Modeling · Embedded Control · Experimental Validation  
+**Role:** Sole designer, developer and analyst
+
 ---
 
 ## Motivation
@@ -59,8 +65,9 @@ Physiological flow and pressure dynamics were modeled and evaluated using fundam
 ---
 
 ## Technical Documentation
-- 📄 **[Final Capstone Report (PDF)]({{ site.baseurl }}/assets/pdf/BME_FINAL_EDP_REPORT_VY09_2025.pdf)**  
-  *(40+ page technical report detailing system design, modeling, validation, and results)*
+{: .notice--secondary}
+📄 **[Final Capstone Report (PDF)]({{ site.baseurl }}/assets/pdf/BME_FINAL_EDP_REPORT_VY09_2025.pdf)**  
+*40+ page technical report detailing system design, modeling, validation and results*
 
 ---
 
@@ -72,4 +79,5 @@ Physiological flow and pressure dynamics were modeled and evaluated using fundam
 ---
 
 ## Reflection
-This project strengthened my ability to translate theoretical concepts into validated biomedical systems, integrating hardware, software and experimental analysis. Completing the project independently reinforced system-level thinking, iterative prototyping and cost-aware engineering—skills directly applicable to biomedical research and development roles.
+This project strengthened my ability to translate theoretical concepts into validated biomedical systems through iterative prototyping, embedded control development and experimental validation. Completing the project independently reinforced system-level thinking, cost-aware engineering and technical communication—skills directly applicable to biomedical research, device development and experimental engineering roles.
+
