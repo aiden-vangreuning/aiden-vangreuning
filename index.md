@@ -1,22 +1,38 @@
 ---
 layout: home-custom
 title: Home
----
-<div class="hero">
+---<section class="hero">
+  <div class="hero-inner">
 
-  <img src="{{ site.baseurl }}/assets/images/profile.jpg"
-       alt="Aiden Van Greuning"
-       class="hero__image">
+    <div class="hero-text">
+      <h1>Aiden Van Greuning</h1>
 
-  <div class="hero__text">
-    <h1>Aiden Van Greuning</h1>
-    <p class="hero__tagline">
-      Biomedical Engineering graduate focused on experimental system design,
-      signal processing and translational biomedical research.
-    </p>
+      <p class="hero-role">
+        Biomedical Engineering Graduate
+      </p>
+
+      <p class="hero-blurb">
+        Focused on experimental system design, biomedical signal processing
+        and translational research across medical devices, wet-lab systems
+        and microscale technologies.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="/assets/Aiden_Van_Greuning_CV.pdf" class="btn-secondary">
+          Download CV
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="{{ site.baseurl }}/assets/images/profile.jpg"
+           alt="Aiden Van Greuning">
+    </div>
+
   </div>
+</section>
 
-</div>
 
 
 I’m a Biomedical Engineering graduate with hands-on experience across experimental system design, signal processing, and applied biomedical research. My work includes developing a low-cost cerebrovascular flow pump for interventional neuroradiology training, alongside experience in wet-lab techniques, computational analysis, microscale biomedical systems and radiation-based medical technologies.
