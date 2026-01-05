@@ -13,8 +13,8 @@ title: Home
       </p>
 
       <p class="hero-blurb">
-        Focused on experimental system design, biomedical signal processing
-        and translational research across medical devices, wet-lab systems
+        Focused on experimental system design, biomedical signal processing,
+        and translational research across medical devices, wet-lab systems,
         and microscale technologies.
       </p>
 
