@@ -13,16 +13,21 @@ title: Home
       </p>
 
       <p class="hero-blurb">
-        Focused on experimental system design, biomedical signal processing,
-        and translational research across medical devices, wet-lab systems,
-        and microscale technologies.
-      </p>
+    Biomedical engineering graduate specializing in experimental system design,
+    biomedical signal processing and translational research.
+    </p>
+
+    <p class="hero-blurb">
+    Experience across medical devices, wet-lab experimentation
+    and microscale biomedical systems.
+    </p>
+
 
       <div class="hero-actions">
         <a href="#projects" class="btn-primary">View Projects</a>
         <a href="/assets/Aiden_Van_Greuning_CV.pdf" class="btn-secondary">
-          Download CV
-        </a>
+    View CV
+    </a>
       </div>
     </div>
 
