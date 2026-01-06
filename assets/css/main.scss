@@ -245,3 +245,16 @@ a:hover {
   transform: scale(1.02);
 }
 
+/* === FINAL FIX: Constrain poster preview container === */
+
+.page__content figure.poster-preview {
+  max-width: 420px;      /* controls preview size */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__content figure.poster-preview img {
+  width: 100% !important;  /* fill the small container */
+  max-width: 100%;
+  height: auto;
+}
