@@ -59,8 +59,8 @@ Collected data were analyzed and summarized through structured technical lab rep
 
 ## Technical Documentation
 {: .notice--secondary}
-📄 **[Cell Culture Laboratory Report (PDF)]({{ site.baseurl }}/assets/pdf/Cell_Culture_Lab_Report.pdf)**  
-*Formal laboratory report detailing experimental procedures, observations and analysis*
+📄 **[Representative Laboratory Report (PDF)]({{ site.baseurl }}/assets/pdf/tissue-engineering-cell-culture-lab-report-lab-4.pdf)**  
+*Selected from multiple experiments conducted over the term.*
 
 ---
 
