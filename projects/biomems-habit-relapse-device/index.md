@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Conceptual BioMEMS Device for Habit Relapse Prediction
-permalink: /projects/biomems-habit-relapse-device/
+permalink: /projects/conceptual-eeg-and-biomems-device-design
 ---
 
 ## Overview
