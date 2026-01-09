@@ -41,7 +41,7 @@ title: Home
 
 
 
-I’m a Biomedical Engineering graduate with hands-on experience across experimental system design, signal processing, and applied biomedical research. My work includes developing a low-cost cerebrovascular flow pump for interventional neuroradiology training, alongside experience in wet-lab techniques, computational analysis, microscale biomedical systems and radiation-based medical technologies.
+I’m a Biomedical Engineering graduate with hands-on experience across experimental system design, signal processing and applied biomedical research. My work includes developing a low-cost cerebrovascular flow pump for interventional neuroradiology training, alongside experience in wet-lab techniques, computational analysis, microscale biomedical systems and radiation-based medical technologies.
 
 I’m broadly interested in biomedical research and engineering — spanning medical devices, radiation therapy and medical physics, cell and tissue engineering, BioMEMS and molecular-scale technologies — with a focus on translating theory into practical, accessible solutions.
 
@@ -82,7 +82,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
       <h3>Cell Culture & Tissue Engineering</h3>
       <p class="project-meta">Wet-Lab & CL2 Laboratory Work</p>
       <p>
-        Conducted live cell culture, microscopy, and cellular assays using aseptic
+        Conducted live cell culture, microscopy and cellular assays using aseptic
         technique and biosafety protocols, producing data-driven technical reports.
       </p>
     </a>
@@ -102,7 +102,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
       <p class="project-meta">Medical Physics & Computational Modeling</p>
       <p>
         Developed computational and theoretical expertise in radiation transport,
-        LINAC systems, and dose calculation through simulation-based treatment planning.
+        LINAC systems and dose calculation through simulation-based treatment planning.
       </p>
     </a>
 
