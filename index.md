@@ -39,8 +39,6 @@ title: Home
   </div>
 </section>
 
-
-
 I’m a Biomedical Engineering graduate with hands-on experience across experimental system design, signal processing and applied biomedical research. My work includes developing a low-cost cerebrovascular flow pump for interventional neuroradiology training, alongside experience in wet-lab techniques, computational analysis, microscale biomedical systems and radiation-based medical technologies.
 
 I’m broadly interested in biomedical research and engineering — spanning medical devices, radiation therapy and medical physics, cell and tissue engineering, BioMEMS and molecular-scale technologies — with a focus on translating theory into practical, accessible solutions.
@@ -68,9 +66,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
       <h3>Low-Cost Cerebrovascular Flow Pump</h3>
       <p class="project-meta">Capstone · Experimental System Design</p>
       <p>
-        Independently designed and built a low-cost, Arduino-controlled pulsatile pump
-        integrated with a 3D-printed Circle of Willis model to replicate physiological
-        cerebral blood flow for interventional neuroradiology training and research.
+        Independently designed and built a low-cost, Arduino-controlled pulsatile flow system to replicate physiological cerebral blood flow for interventional neuroradiology training and research.
       </p>
     </a>
   </div>
@@ -82,8 +78,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
       <h3>Cell Culture & Tissue Engineering Laboratory Portfolio</h3>
       <p class="project-meta">Wet-Lab & CL2 Laboratory Work</p>
       <p>
-        Conducted live cell culture, microscopy and cellular assays using aseptic
-        technique and biosafety protocols, producing data-driven technical reports.
+        Conducted structured wet-lab experiments involving live cell culture, microscopy and cellular assays under CL2 biosafety protocols, producing data-driven technical reports.
       </p>
     </a>
 
@@ -91,9 +86,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
       <h3>ECG Signal Processing for Cerebromicrovascular Disease Analysis</h3>
       <p class="project-meta">Data Analysis & Algorithms</p>
       <p>
-        Applied signal processing and machine learning techniques to physiological
-        ECG data, implementing the Pan–Tompkins algorithm for feature extraction
-        and classification.
+        Applied signal processing and machine learning techniques to ECG data to extract clinically relevant features and evaluate classification performance in diabetic cerebromicrovascular disease.
       </p>
     </a>
 
@@ -101,8 +94,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
       <h3>Radiation Therapy Simulation & Treatment Planning Concepts</h3>
       <p class="project-meta">Medical Physics & Computational Modeling</p>
       <p>
-        Developed computational and theoretical expertise in radiation transport,
-        LINAC systems and dose calculation through simulation-based treatment planning.
+        Developed theoretical and computational expertise in radiation therapy through simulation-based labs involving LINAC systems, radiation interactions and dose calculation.
       </p>
     </a>
 
@@ -110,8 +102,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
       <h3>Conceptual BioMEMS Wearable for Habit Relapse Prediction</h3>
       <p class="project-meta">Systems Design & Miniaturization</p>
       <p>
-        Designed a conceptual wearable integrating EEG sensing and microfluidic
-        biomarker monitoring to predict stress-driven behavioral relapse.
+       Conceptualized a wearable BioMEMS system integrating neural and biochemical sensing to explore early prediction of stress-driven habit relapse.
       </p>
     </a>
 
