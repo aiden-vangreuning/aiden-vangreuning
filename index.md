@@ -79,7 +79,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
   <div class="project-grid">
 
     <a href="{{ site.baseurl }}/projects/cell-culture-laboratory-experiments" class="project-card">
-      <h3>Cell Culture & Tissue Engineering</h3>
+      <h3>Cell Culture & Tissue Engineering Laboratory Portfolio</h3>
       <p class="project-meta">Wet-Lab & CL2 Laboratory Work</p>
       <p>
         Conducted live cell culture, microscopy and cellular assays using aseptic
@@ -88,7 +88,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
     </a>
 
     <a href="{{ site.baseurl }}/projects/signal-processing-cerebromicrovascular-disease" class="project-card">
-      <h3>Biomedical Signal Processing</h3>
+      <h3>ECG Signal Processing for Cerebromicrovascular Disease Analysis</h3>
       <p class="project-meta">Data Analysis & Algorithms</p>
       <p>
         Applied signal processing and machine learning techniques to physiological
@@ -98,7 +98,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
     </a>
 
     <a href="{{ site.baseurl }}/projects/radiation-therapy-simulation-and-research" class="project-card">
-      <h3>Radiation Therapy Simulation</h3>
+      <h3>Radiation Therapy Simulation & Treatment Planning Concepts</h3>
       <p class="project-meta">Medical Physics & Computational Modeling</p>
       <p>
         Developed computational and theoretical expertise in radiation transport,
@@ -107,7 +107,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
     </a>
 
     <a href="{{ site.baseurl }}/projects/conceptual-eeg-and-biomems-device-design" class="project-card">
-      <h3>Wearable EEG & BioMEMS Concept</h3>
+      <h3>Conceptual BioMEMS Wearable for Habit Relapse Prediction</h3>
       <p class="project-meta">Systems Design & Miniaturization</p>
       <p>
         Designed a conceptual wearable integrating EEG sensing and microfluidic
