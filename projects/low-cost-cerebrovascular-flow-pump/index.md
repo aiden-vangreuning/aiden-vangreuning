@@ -23,7 +23,7 @@ Commercial cerebrovascular flow simulators are often prohibitively expensive and
 ---
 
 ## System Architecture & Design
-The system integrates mechanical, electrical, and computational components to achieve controlled pulsatile flow:
+The system integrates mechanical, electrical and computational components to achieve controlled pulsatile flow:
 
 - Peristaltic stepper motor pump driven by an Arduino-based control architecture  
 - Real-time flow sensing and signal processing for monitoring system behaviour  
@@ -35,7 +35,7 @@ Custom control logic was implemented to regulate flow rate and pressure behaviou
 ---
 
 ## Flow Modeling & Data Analysis
-Physiological flow and pressure dynamics were modeled and evaluated using fundamental fluid mechanics principles, including **Poiseuille’s Law**. Flow sensor data were collected and analyzed to validate system performance, repeatability, and stability under controlled experimental conditions.
+Physiological flow and pressure dynamics were modeled and evaluated using fundamental fluid mechanics principles, including **Poiseuille’s Law**. Flow sensor data were collected and analyzed to validate system performance, repeatability and stability under controlled experimental conditions.
 
 ---
 
