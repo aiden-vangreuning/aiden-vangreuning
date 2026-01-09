@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ECG Signal Processing & Analysis
+title: ECG Signal Processing for Cerebromicrovascular Disease Analysis
 permalink: /projects/signal-processing-cerebromicrovascular-disease/
 ---
 
