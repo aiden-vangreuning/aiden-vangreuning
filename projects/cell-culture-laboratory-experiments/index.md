@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cell Culture & Tissue Engineering Laboratory Work
+title: Cell Culture & Tissue Engineering Laboratory Portfolio
 permalink: /projects/cell-culture-laboratory-experiments/
 ---
 
