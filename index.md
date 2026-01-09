@@ -18,8 +18,7 @@ title: Home
     </p>
 
     <p class="hero-blurb">
-    Experience across medical devices, wet-lab experimentation
-    and microscale biomedical systems.
+    Experience across medical devices, wet-lab experimentation and microscale biomedical systems, with an emphasis on research-driven engineering.
     </p>
 
 
@@ -109,7 +108,6 @@ I’m broadly interested in biomedical research and engineering — spanning med
   </div>
 </section>
 
-
-
+---
 📫 **Contact**  
-Email: aiden.vangreuning@torontomu.ca
+<a href="mailto:aiden.vangreuning@torontomu.ca">aiden.vangreuning@torontomu.ca</a>
