@@ -102,5 +102,11 @@ This project strengthened my ability to translate theoretical signal processing 
 
 ---
 
-← [Back to Portfolio](/)
+---
+layout: single
+title: Low-Cost Cerebrovascular Flow Pump
+---
+
+← [Back to Portfolio]({{ site.baseurl }}/#projects)
+
 
