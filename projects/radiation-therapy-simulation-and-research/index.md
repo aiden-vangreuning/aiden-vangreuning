@@ -62,11 +62,30 @@ The project emphasized system integration, clinical feasibility and future-facin
 
 ## Technical Documentation
 {: .notice--secondary}
-📄 **[Representative Radiation Therapy Lab Report (PDF)]({{ site.baseurl }}/assets/pdf/radiation-therapy-simulation-lab-4.pdf)**  
-*Selected from multiple simulation labs conducted over the term.*
 
-📄 **[Final Project Report (PDF)]({{ site.baseurl }}/assets/pdf/radiation-treatment-planning-final-report.pdf)**  
-📄 **[Final Project Presentation (PDF)]({{ site.baseurl }}/assets/pdf/radiation-treatment-planning-presentation.pdf)**  
+📄 <a href="{{ site.baseurl }}/assets/pdf/radiation-therapy-simulation-lab-4.pdf"
+     target="_blank"
+     rel="noopener">
+     <strong>Representative Radiation Therapy Lab Report (PDF)</strong>
+   </a><br>
+<em>Selected from multiple simulation labs conducted over the term.</em>
+
+<br><br>
+
+📄 <a href="{{ site.baseurl }}/assets/pdf/radiation-treatment-planning-final-report.pdf"
+     target="_blank"
+     rel="noopener">
+     <strong>Final Project Report (PDF)</strong>
+   </a>
+
+<br><br>
+
+📄 <a href="{{ site.baseurl }}/assets/pdf/radiation-treatment-planning-presentation.pdf"
+     target="_blank"
+     rel="noopener">
+     <strong>Final Project Presentation (PDF)</strong>
+   </a>
+  
 
 ---
 
@@ -80,11 +99,6 @@ The project emphasized system integration, clinical feasibility and future-facin
 ## Reflection
 This project strengthened my ability to reason quantitatively about radiation-based medical systems and connect physical principles to clinical implementation. The combination of simulation labs and system-level design reinforced structured problem-solving, technical communication and interdisciplinary thinking—skills. All of these are directly applicable to medical physics, radiation therapy research and advanced biomedical system design.
 
----
-
----
-layout: single
-title: Low-Cost Cerebrovascular Flow Pump
 ---
 
 ← [Back to Portfolio]({{ site.baseurl }}/#projects)
