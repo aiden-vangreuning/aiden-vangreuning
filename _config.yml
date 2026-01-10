@@ -18,3 +18,8 @@ header_pages:
 atom_feed:
   hide: true
 
+# Disable blog functionality
+paginate: false
+search: false
+breadcrumbs: false
+comments: false
