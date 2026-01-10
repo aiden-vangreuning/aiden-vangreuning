@@ -4,16 +4,37 @@
 @import "minimal-mistakes";
 
 /* =========================
-   Global Accent Colors
+   Global Color System
    ========================= */
 
+:root {
+  --accent-color: #2f6f8f;   /* medical blue */
+  --accent-soft: #f2f7fa;    /* soft background */
+  --accent-hover: #24576f;
+}
+
+
 a {
-  color: #0055a5;
+  color: var(--accent-color);
 }
 
 a:hover {
-  color: #003d7a;
+  color: var(--accent-hover);
 }
+
+/* =========================
+   Buttons
+   ========================= */
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-hover);
+}
+
 
 /* =========================
    Headings & Section Spacing
@@ -166,12 +187,25 @@ a:hover {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   margin-top: 2rem;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Responsive collapse */
+@media (max-width: 1200px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-card {
@@ -189,30 +223,28 @@ a:hover {
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
-  border-color: #0055a5;
-  color: #0055a5;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
+
 
 /* =========================
    Soft Highlight Sections
    ========================= */
 
 .section-soft {
-  background: #f7f9fc;
+  background: var(--accent-soft);
   padding: 3rem 2rem;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 
+
 .featured-card {
-  border-width: 2px;
-  border-color: #0055a5;
-  background: linear-gradient(
-    to bottom,
-    #ffffff,
-    #f8fbff
-  );
+  border-left: 5px solid var(--accent-color);
+  background: var(--accent-soft);
 }
+
 
 /* =========================
    Capstone Poster Handling
@@ -259,8 +291,22 @@ a:hover {
   height: auto;
 }
 
+/* =========================
+   Typography & Spacing Polish
+   ========================= */
+
+.page__content {
+  max-width: 1100px;
+  margin: auto;
+}
+
 .page__content p {
   line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+section {
+  margin-bottom: 4rem;
 }
 
 
