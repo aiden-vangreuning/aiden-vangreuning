@@ -59,8 +59,13 @@ Collected data were analyzed and summarized through structured technical lab rep
 
 ## Technical Documentation
 {: .notice--secondary}
-📄 **[Representative Laboratory Report (PDF)]({{ site.baseurl }}/assets/pdf/tissue-engineering-cell-culture-lab-report-lab-4.pdf)**  
-*Selected from multiple experiments conducted over the term.*
+📄 <a href="{{ site.baseurl }}/assets/pdf/tissue-engineering-cell-culture-lab-report-lab-4.pdf"
+     target="_blank"
+     rel="noopener">
+     <strong>Representative Laboratory Report (PDF)</strong>
+   </a><br>
+<em>Selected from multiple experiments conducted over the term.</em>
+
 
 ---
 
