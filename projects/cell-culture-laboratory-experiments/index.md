@@ -80,10 +80,5 @@ This project provided hands-on exposure to biological laboratory environments an
 
 ---
 
----
-layout: single
-title: Low-Cost Cerebrovascular Flow Pump
----
-
 ← [Back to Portfolio]({{ site.baseurl }}/#projects)
 
