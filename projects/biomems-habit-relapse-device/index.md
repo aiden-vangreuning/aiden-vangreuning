@@ -84,5 +84,11 @@ This project strengthened my ability to synthesize BioMEMS theory, biomedical se
 
 ---
 
-← [Back to Portfolio](/)
+---
+layout: single
+title: Low-Cost Cerebrovascular Flow Pump
+---
+
+← [Back to Portfolio]({{ site.baseurl }}/#projects)
+
 
