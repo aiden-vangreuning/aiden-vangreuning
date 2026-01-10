@@ -52,10 +52,11 @@ a:hover {
   display: block;
   width: 60px;
   height: 3px;
-  background: #0055a5;
+  background: var(--accent-color);
   margin-top: 0.4rem;
   border-radius: 2px;
 }
+
 
 /* =========================
    Layout Width Adjustments
@@ -74,6 +75,36 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+
+/* =========================
+   REMOVE BLOG / FEED UI
+   ========================= */
+
+/* Remove metadata (dates, reading time, tags, categories) */
+.page__meta,
+.page__taxonomy,
+.page__date,
+.page__reading-time,
+.page__footer-meta {
+  display: none !important;
+}
+
+/* Remove RSS / feed elements */
+.feed-subscribe,
+.feed-subscribe a,
+.fa-rss,
+.fa-feed,
+.rss-subscribe {
+  display: none !important;
+}
+
+/* Remove blog pagination, sharing, related posts */
+.pagination,
+.page__share,
+.page__related {
+  display: none !important;
+}
+
 
 /* =========================
    HERO SECTION — OPTION A
@@ -103,9 +134,10 @@ a:hover {
 .hero-role {
   font-size: 1.15rem;
   font-weight: 500;
-  color: #0055a5;
+  color: var(--accent-color);
   margin-bottom: 1rem;
 }
+
 
 .hero-blurb {
   font-size: 1.05rem;
@@ -253,11 +285,12 @@ a:hover {
 .poster-preview {
   margin: 3rem auto;
   padding: 1.5rem;
-  background: #f7f9fc;
+  background: var(--accent-soft);
   border-radius: 12px;
   max-width: 100%;
   text-align: center;
 }
+
 
 /* OVERRIDE Minimal Mistakes image rules */
 .page__content .poster-preview img {
