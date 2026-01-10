@@ -78,8 +78,21 @@ Logistic regression was selected for final evaluation due to its interpretabilit
 
 ## Technical Documentation
 {: .notice--secondary}
-📄 **[Final Technical Report (PDF)]({{ site.baseurl }}/assets/pdf/ecg-signal-processing-summary-and-report.pdf)**  
-📄 **[Project Presentation (PDF)]({{ site.baseurl }}/assets/pdf/ecg-signal-processing-presentation.pdf)**  
+
+📄 <a href="{{ site.baseurl }}/assets/pdf/ecg-signal-processing-summary-and-report.pdf"
+     target="_blank"
+     rel="noopener">
+     <strong>Final Technical Report (PDF)</strong>
+   </a>
+
+<br><br>
+
+📄 <a href="{{ site.baseurl }}/assets/pdf/ecg-signal-processing-presentation.pdf"
+     target="_blank"
+     rel="noopener">
+     <strong>Project Presentation (PDF)</strong>
+   </a>
+
 
 ---
 
@@ -100,11 +113,6 @@ Future work would benefit from larger, more diverse ECG datasets to improve stat
 ## Reflection
 This project strengthened my ability to translate theoretical signal processing concepts into functional analytical pipelines for real biomedical data. It reinforced careful algorithm implementation, quantitative validation and clear technical communication—skills directly applicable to biomedical research, medical signal analysis and data-driven healthcare applications.
 
----
-
----
-layout: single
-title: Low-Cost Cerebrovascular Flow Pump
 ---
 
 ← [Back to Portfolio]({{ site.baseurl }}/#projects)
