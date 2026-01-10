@@ -61,8 +61,12 @@ Design rationale was informed by BioMEMS literature, wearable sensor research an
 
 ## Technical Documentation
 {: .notice--secondary}
-📄 **[Final Project Presentation (PDF)]({{ site.baseurl }}/assets/pdf/biomems-habit-relapse-device-presentation.pdf)**  
-*Includes system architecture, design rationale and feasibility analysis.*
+📄 <a href="{{ site.baseurl }}/assets/pdf/biomems-habit-relapse-device-presentation.pdf"
+     target="_blank"
+     rel="noopener">
+     <strong>Final Project Presentation (PDF)</strong>
+   </a><br>
+<em>Includes system architecture, design rationale and feasibility analysis.</em>
 
 ---
 
