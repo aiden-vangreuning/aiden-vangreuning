@@ -100,4 +100,7 @@ Future work would benefit from larger, more diverse ECG datasets to improve stat
 ## Reflection
 This project strengthened my ability to translate theoretical signal processing concepts into functional analytical pipelines for real biomedical data. It reinforced careful algorithm implementation, quantitative validation and clear technical communication—skills directly applicable to biomedical research, medical signal analysis and data-driven healthcare applications.
 
+---
+
+← [Back to Portfolio](/)
 
