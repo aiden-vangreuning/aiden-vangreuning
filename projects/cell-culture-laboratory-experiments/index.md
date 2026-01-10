@@ -72,3 +72,7 @@ Collected data were analyzed and summarized through structured technical lab rep
 
 ## Reflection
 This project provided hands-on exposure to biological laboratory environments and reinforced the importance of precision, safety and documentation in experimental biomedical research. The experience strengthened my ability to translate theoretical biological concepts into structured laboratory practice, forming a foundation for future work in tissue engineering, biomaterials and experimental biomedical systems.
+
+---
+
+← [Back to Portfolio](/)
