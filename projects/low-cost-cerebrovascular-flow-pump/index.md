@@ -80,8 +80,12 @@ Physiological flow and pressure dynamics were modeled and evaluated using fundam
 
 ## Technical Documentation
 {: .notice--secondary}
-📄 **[Final Capstone Report (PDF)]({{ site.baseurl }}/assets/pdf/BME_FINAL_EDP_REPORT_VY09_2025.pdf)**  
-*40+ page technical report detailing system design, modeling, validation and results*
+📄 <a href="{{ site.baseurl }}/assets/pdf/BME_FINAL_EDP_REPORT_VY09_2025.pdf"
+     target="_blank"
+     rel="noopener">
+     <strong>Final Capstone Report (PDF)</strong>
+   </a><br>
+<em>40+ page technical report detailing system design, modeling, validation and results</em>
 
 ---
 
