@@ -82,4 +82,10 @@ This project strengthened my ability to reason quantitatively about radiation-ba
 
 ---
 
-← [Back to Portfolio](/)
+---
+layout: single
+title: Low-Cost Cerebrovascular Flow Pump
+---
+
+← [Back to Portfolio]({{ site.baseurl }}/#projects)
+
