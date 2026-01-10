@@ -81,3 +81,8 @@ Future work would involve microfabrication of sensing components, benchtop valid
 
 ## Reflection
 This project strengthened my ability to synthesize BioMEMS theory, biomedical sensing principles and human-centered design into a cohesive system concept. It reinforced research-driven problem framing, critical evaluation of feasibility constraints and clear technical communication—skills directly applicable to early-stage biomedical device development and translational research.
+
+---
+
+← [Back to Portfolio](/)
+
