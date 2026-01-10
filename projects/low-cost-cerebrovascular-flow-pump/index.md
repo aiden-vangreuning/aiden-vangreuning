@@ -95,3 +95,6 @@ Physiological flow and pressure dynamics were modeled and evaluated using fundam
 ## Reflection
 This project strengthened my ability to translate theoretical concepts into validated biomedical systems through iterative prototyping, embedded control development and experimental validation. Completing the project independently reinforced system-level thinking, cost-aware engineering and technical communication—skills directly applicable to biomedical research, device development and experimental engineering roles.
 
+---
+
+← [Back to Portfolio](/)
