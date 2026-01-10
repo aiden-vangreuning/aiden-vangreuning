@@ -97,4 +97,10 @@ This project strengthened my ability to translate theoretical concepts into vali
 
 ---
 
-← [Back to Portfolio](/)
+---
+layout: single
+title: Low-Cost Cerebrovascular Flow Pump
+---
+
+← [Back to Portfolio]({{ site.baseurl }}/#projects)
+
