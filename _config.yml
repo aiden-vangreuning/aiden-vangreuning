@@ -23,3 +23,9 @@ paginate: false
 search: false
 breadcrumbs: false
 comments: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
