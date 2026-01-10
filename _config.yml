@@ -14,3 +14,7 @@ plugins:
 header_pages:
   - index.md
   - projects.md
+
+  atom_feed:
+  hide: true
+
