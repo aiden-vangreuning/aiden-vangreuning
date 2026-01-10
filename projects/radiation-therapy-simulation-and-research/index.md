@@ -79,3 +79,7 @@ The project emphasized system integration, clinical feasibility and future-facin
 
 ## Reflection
 This project strengthened my ability to reason quantitatively about radiation-based medical systems and connect physical principles to clinical implementation. The combination of simulation labs and system-level design reinforced structured problem-solving, technical communication and interdisciplinary thinking—skills. All of these are directly applicable to medical physics, radiation therapy research and advanced biomedical system design.
+
+---
+
+← [Back to Portfolio](/)
