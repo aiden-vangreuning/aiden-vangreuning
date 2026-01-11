@@ -319,3 +319,48 @@ a:hover {
   );
   opacity: 0.6;
 }
+
+/* =========================
+   FORCE COLOR ON PROJECT PAGES
+   ========================= */
+
+/* Section headers */
+.page__content h2 {
+  color: #1f3f50;
+}
+
+.page__content h3 {
+  color: var(--accent-color);
+}
+
+/* Paragraph & list accent */
+.page__content p,
+.page__content ul,
+.page__content ol {
+  border-left: 3px solid rgba(47, 111, 143, 0.15);
+  padding-left: 1rem;
+}
+
+/* Notices already have background — enhance them */
+.notice--info,
+.notice--primary,
+.notice--secondary {
+  border-left-width: 6px;
+}
+
+/* Content cards (PDFs, diagrams, images) */
+.content-card {
+  background: linear-gradient(
+    to bottom right,
+    #ffffff,
+    var(--accent-soft)
+  );
+  border-left: 6px solid var(--accent-color);
+}
+
+/* Project sections */
+.project-section {
+  background: var(--accent-soft);
+  border-left: 6px solid var(--accent-color);
+}
+
