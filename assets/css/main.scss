@@ -393,3 +393,21 @@ a:hover {
 section {
   margin-bottom: 4rem;
 }
+
+/* =========================
+   Section Dividers (---)
+   ========================= */
+
+.page__content hr {
+  border: none;
+  height: 2px;
+  margin: 4rem 0;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--accent-color),
+    transparent
+  );
+  opacity: 0.6;
+}
+
