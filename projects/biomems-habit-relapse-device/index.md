@@ -11,7 +11,7 @@ The proposed system explored how miniature biosensing technologies could be embe
 
 {: .notice--info}
 **Project Type:** Academic BioMEMS Design Project  
-**Duration:** One academic term  
+**Duration:** 1 academic semester  
 **Focus Areas:** BioMEMS · Microfluidics · Biomedical Device Design · Signal Processing  
 **Role:** Concept development, system-level design contribution, literature research and feasibility analysis
 
