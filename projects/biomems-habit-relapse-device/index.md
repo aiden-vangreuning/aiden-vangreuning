@@ -4,7 +4,7 @@ title: Conceptual BioMEMS Wearable for Habit Relapse Prediction
 permalink: /projects/conceptual-eeg-and-biomems-device-design
 ---
 
-<div class="project-page">
+
 
 ## Overview
 This project involved the conceptual design of a **wearable BioMEMS-inspired system** aimed at predicting and preventing habit relapse through continuous physiological monitoring. Conducted over the course of an academic semester, the work emphasized **research-driven system design and feasibility analysis** rather than fabrication, integrating principles from **BioMEMS, microfluidics and neural signal monitoring**.
@@ -98,6 +98,6 @@ This project strengthened my ability to synthesize BioMEMS theory, biomedical se
 
 ← [Back to Portfolio]({{ site.baseurl }}/#projects)
 
-</div>
+
 
 
