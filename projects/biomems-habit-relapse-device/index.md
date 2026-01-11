@@ -4,6 +4,8 @@ title: Conceptual BioMEMS Wearable for Habit Relapse Prediction
 permalink: /projects/conceptual-eeg-and-biomems-device-design
 ---
 
+<div class="project-page">
+
 ## Overview
 This project involved the conceptual design of a **wearable BioMEMS-inspired system** aimed at predicting and preventing habit relapse through continuous physiological monitoring. Conducted over the course of an academic semester, the work emphasized **research-driven system design and feasibility analysis** rather than fabrication, integrating principles from **BioMEMS, microfluidics and neural signal monitoring**.
 
@@ -23,6 +25,8 @@ Habit relapse is often preceded by subtle physiological and neurological changes
 The objective of this project was to **conceptualize a discreet, wearable biomedical system** capable of continuously monitoring stress-related biomarkers and neural activity to anticipate relapse risk and enable early, user-centered intervention strategies.
 
 ---
+
+<hr class="section-divider" />
 
 ## Conceptual System Architecture
 The proposed system was explored as a **smart eyewear platform**, integrating multiple sensing modalities into a familiar and socially acceptable form factor. The emphasis was placed on system-level integration and technical feasibility rather than detailed mechanical or microfabricated design.
@@ -59,6 +63,8 @@ Design rationale was informed by BioMEMS literature, wearable sensor research an
 
 ---
 
+<hr class="section-divider" />
+
 ## Technical Documentation
 {: .notice--secondary}
 📄 <a href="{{ site.baseurl }}/assets/pdf/biomems-habit-relapse-device-presentation.pdf"
@@ -76,6 +82,8 @@ Design rationale was informed by BioMEMS literature, wearable sensor research an
 
 ---
 
+<hr class="section-divider" />
+
 ## Limitations & Future Directions
 As a conceptual design project, the system was not fabricated or experimentally validated. Limitations include the absence of physical prototyping, in-vivo testing and quantitative assessment of biomarker stability and EEG signal quality in wearable configurations.
 
@@ -89,5 +97,7 @@ This project strengthened my ability to synthesize BioMEMS theory, biomedical se
 ---
 
 ← [Back to Portfolio]({{ site.baseurl }}/#projects)
+
+</div>
 
 
