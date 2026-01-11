@@ -13,6 +13,9 @@
   --accent-hover: #24576f;
 }
 
+/* =========================
+   Links
+   ========================= */
 
 a {
   color: var(--accent-color);
@@ -35,7 +38,6 @@ a:hover {
   background-color: var(--accent-hover);
 }
 
-
 /* =========================
    Headings & Section Spacing
    ========================= */
@@ -45,6 +47,7 @@ a:hover {
   padding-bottom: 0.3rem;
   border-bottom: 2px solid #e6e6e6;
   position: relative;
+  color: #1f3f50; /* subtle darker blue for hierarchy */
 }
 
 .page__content h2::after {
@@ -63,22 +66,26 @@ a:hover {
   font-weight: 600;
 }
 
-/* Subtle section background */
+/* =========================
+   Section Highlighting (SAFE)
+   ========================= */
+
+/* anchor spacing */
 .page__content > h2 {
   scroll-margin-top: 6rem;
 }
 
-.page__content > h2 + p,
-.page__content > h2 + ul,
-.page__content > h2 + ol {
+/* highlight the FIRST content block under each section */
+.page__content > h2 + * {
   background: linear-gradient(
     to right,
     var(--accent-soft),
     transparent
   );
-  padding: 1.2rem 1.5rem;
+  padding: 1.4rem 1.6rem;
   border-left: 4px solid var(--accent-color);
-  border-radius: 6px;
+  border-radius: 8px;
+  margin-top: 1.25rem;
 }
 
 /* =========================
@@ -103,7 +110,6 @@ a:hover {
    REMOVE BLOG / FEED UI
    ========================= */
 
-/* Remove metadata (dates, reading time, tags, categories) */
 .page__meta,
 .page__taxonomy,
 .page__date,
@@ -112,7 +118,6 @@ a:hover {
   display: none !important;
 }
 
-/* Remove RSS / feed elements */
 .feed-subscribe,
 .feed-subscribe a,
 .fa-rss,
@@ -121,16 +126,14 @@ a:hover {
   display: none !important;
 }
 
-/* Remove blog pagination, sharing, related posts */
 .pagination,
 .page__share,
 .page__related {
   display: none !important;
 }
 
-
 /* =========================
-   HERO SECTION — OPTION A
+   HERO SECTION
    ========================= */
 
 .hero {
@@ -161,7 +164,6 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-
 .hero-blurb {
   font-size: 1.05rem;
   line-height: 1.7;
@@ -180,7 +182,6 @@ a:hover {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* Soft divider after hero */
 .hero::after {
   content: "";
   display: block;
@@ -195,45 +196,7 @@ a:hover {
 }
 
 /* =========================
-   HERO — RESPONSIVE CONTROL
-   ========================= */
-
-@media (max-width: 768px) {
-  .hero {
-    min-height: auto;
-    padding: 3rem 1.5rem;
-  }
-
-  .hero-inner {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .hero-image img {
-    margin: 2rem auto 0;
-  }
-
-  .hero-actions {
-    justify-content: center;
-  }
-}
-
-/* =========================
-   BODY CONTENT WRAPPER
-   ========================= */
-
-.home-hero {
-  max-width: 850px;
-  margin: 2rem auto 0;
-}
-
-/* Vertical rhythm between homepage sections */
-.home-hero > * + * {
-  margin-top: 4rem;
-}
-
-/* =========================
-   Projects Section
+   Projects Grid
    ========================= */
 
 .projects {
@@ -250,7 +213,6 @@ a:hover {
   margin-right: auto;
 }
 
-/* Responsive collapse */
 @media (max-width: 1200px) {
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -283,25 +245,8 @@ a:hover {
   color: var(--accent-color);
 }
 
-
 /* =========================
-   Soft Highlight Sections
-   ========================= */
-
-.section-soft {
-  background: var(--accent-soft);
-  padding: 3rem 2rem;
-  border-radius: 12px;
-}
-
-
-.featured-card {
-  border-left: 5px solid var(--accent-color);
-  background: var(--accent-soft);
-}
-
-/* =========================
-   Project Page Sections
+   Project Page Cards
    ========================= */
 
 .project-section {
@@ -311,15 +256,14 @@ a:hover {
   margin: 3rem 0;
 }
 
-.project-section--white {
+.content-card {
   background: #ffffff;
-  padding: 2.5rem 2rem;
+  border-left: 6px solid var(--accent-color);
   border-radius: 14px;
+  padding: 1.75rem;
   margin: 3rem 0;
-  border: 1px solid #eaeaea;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
 }
-
-
 
 /* =========================
    Capstone Poster Handling
@@ -330,54 +274,23 @@ a:hover {
   padding: 1.5rem;
   background: var(--accent-soft);
   border-radius: 12px;
-  max-width: 100%;
   text-align: center;
 }
 
-
-/* OVERRIDE Minimal Mistakes image rules */
-.page__content .poster-preview img {
-  width: auto;            /* KEY FIX */
-  max-width: 100%;        /* Prevent overflow */
-  max-height: 600px;      /* Controls tall posters */
-  height: auto;
-  display: inline-block;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
-}
-
-.poster-preview img {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.poster-preview a:hover img {
-  transform: scale(1.02);
-}
-
-/* === FINAL FIX: Constrain poster preview container === */
-
 .page__content figure.poster-preview {
-  max-width: 420px;      /* controls preview size */
+  max-width: 420px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .page__content figure.poster-preview img {
-  width: 100% !important;  /* fill the small container */
-  max-width: 100%;
+  width: 100% !important;
   height: auto;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
-
-.content-card {
-  background: #ffffff;
-  border: 1px solid #e6e6e6;
-  border-radius: 12px;
-  padding: 1.75rem;
-  margin: 2.5rem 0;
-}
-
 
 /* =========================
-   Typography & Spacing Polish
+   Typography Polish
    ========================= */
 
 .page__content {
@@ -388,10 +301,6 @@ a:hover {
 .page__content p {
   line-height: 1.7;
   margin-bottom: 1.25rem;
-}
-
-section {
-  margin-bottom: 4rem;
 }
 
 /* =========================
@@ -410,4 +319,3 @@ section {
   );
   opacity: 0.6;
 }
-
