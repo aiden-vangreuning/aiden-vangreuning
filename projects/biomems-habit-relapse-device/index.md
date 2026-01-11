@@ -48,8 +48,6 @@ Several technical challenges were central to the project’s feasibility analysi
 
 Design rationale was informed by BioMEMS literature, wearable sensor research and established biomedical device design principles.
 
----
-
 {: .notice--primary}
 **Key Contributions**
 - Contributed to the conceptualization of a multi-modal BioMEMS wearable for relapse risk prediction  
