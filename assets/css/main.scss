@@ -57,6 +57,11 @@ a:hover {
   border-radius: 2px;
 }
 
+.page__content h3 {
+  margin-top: 2.5rem;
+  color: var(--accent-color);
+  font-weight: 600;
+}
 
 /* =========================
    Layout Width Adjustments
@@ -277,6 +282,26 @@ a:hover {
   background: var(--accent-soft);
 }
 
+/* =========================
+   Project Page Sections
+   ========================= */
+
+.project-section {
+  background: var(--accent-soft);
+  padding: 2.5rem 2rem;
+  border-radius: 14px;
+  margin: 3rem 0;
+}
+
+.project-section--white {
+  background: #ffffff;
+  padding: 2.5rem 2rem;
+  border-radius: 14px;
+  margin: 3rem 0;
+  border: 1px solid #eaeaea;
+}
+
+
 
 /* =========================
    Capstone Poster Handling
@@ -323,6 +348,15 @@ a:hover {
   max-width: 100%;
   height: auto;
 }
+
+.content-card {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 1.75rem;
+  margin: 2.5rem 0;
+}
+
 
 /* =========================
    Typography & Spacing Polish
