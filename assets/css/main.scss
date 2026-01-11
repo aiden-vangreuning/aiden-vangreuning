@@ -13,9 +13,10 @@
   --accent-hover: #24576f;
 }
 
-a {
+.page__content a:not(.project-card) {
   color: var(--accent-color);
 }
+
 
 a:hover {
   color: var(--accent-hover);
