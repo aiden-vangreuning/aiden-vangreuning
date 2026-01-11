@@ -45,7 +45,6 @@ Throughout the project, strict laboratory protocols were followed to ensure expe
 
 Collected data were analyzed and summarized through structured technical lab reports.
 
----
 
 {: .notice--primary}
 **Key Skills & Competencies Developed**
@@ -65,9 +64,6 @@ Collected data were analyzed and summarized through structured technical lab rep
      <strong>Representative Laboratory Report (PDF)</strong>
    </a><br>
 <em>Selected from multiple experiments conducted over the term.</em>
-
-
----
 
 ## Tools & Technologies
 **Cell Culture Techniques · Optical Microscopy · Biomaterials**  
