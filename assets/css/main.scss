@@ -13,10 +13,10 @@
   --accent-hover: #24576f;
 }
 
-.page__content a:not(.project-card) {
+
+a {
   color: var(--accent-color);
 }
-
 
 a:hover {
   color: var(--accent-hover);
@@ -35,6 +35,7 @@ a:hover {
   background-color: var(--accent-hover);
 }
 
+
 /* =========================
    Headings & Section Spacing
    ========================= */
@@ -42,9 +43,7 @@ a:hover {
 .page__content h2 {
   margin-top: 3.5rem;
   padding-bottom: 0.3rem;
-  padding-left: 0.75rem;                 /* NEW */
   border-bottom: 2px solid #e6e6e6;
-  border-left: 4px solid var(--accent-color); /* NEW */
   position: relative;
 }
 
@@ -57,6 +56,7 @@ a:hover {
   margin-top: 0.4rem;
   border-radius: 2px;
 }
+
 
 /* =========================
    Layout Width Adjustments
@@ -80,24 +80,34 @@ a:hover {
    REMOVE BLOG / FEED UI
    ========================= */
 
+/* Remove metadata (dates, reading time, tags, categories) */
 .page__meta,
 .page__taxonomy,
 .page__date,
 .page__reading-time,
-.page__footer-meta,
+.page__footer-meta {
+  display: none !important;
+}
+
+/* Remove RSS / feed elements */
 .feed-subscribe,
 .feed-subscribe a,
 .fa-rss,
 .fa-feed,
-.rss-subscribe,
+.rss-subscribe {
+  display: none !important;
+}
+
+/* Remove blog pagination, sharing, related posts */
 .pagination,
 .page__share,
 .page__related {
   display: none !important;
 }
 
+
 /* =========================
-   HERO SECTION
+   HERO SECTION — OPTION A
    ========================= */
 
 .hero {
@@ -110,37 +120,144 @@ a:hover {
 .hero-inner {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
   gap: 3rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
+.hero-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
 .hero-role {
+  font-size: 1.15rem;
+  font-weight: 500;
   color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+
+.hero-blurb {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+.hero-actions {
+  margin-top: 1.8rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-image img {
+  max-width: 280px;
+  border-radius: 50%;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Soft divider after hero */
+.hero::after {
+  content: "";
+  display: block;
+  margin-top: 4rem;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 0, 0, 0.15),
+    transparent
+  );
 }
 
 /* =========================
-   Projects Section (Cards)
+   HERO — RESPONSIVE CONTROL
    ========================= */
 
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-image img {
+    margin: 2rem auto 0;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+}
+
+/* =========================
+   BODY CONTENT WRAPPER
+   ========================= */
+
+.home-hero {
+  max-width: 850px;
+  margin: 2rem auto 0;
+}
+
+/* Vertical rhythm between homepage sections */
+.home-hero > * + * {
+  margin-top: 4rem;
+}
+
+/* =========================
+   Projects Section
+   ========================= */
+
+.projects {
+  margin-top: 3rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive collapse */
+@media (max-width: 1200px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-card {
+  display: block;
+  padding: 1.6rem 1.4rem;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #222;
+  transition: transform 0.18s ease,
+              box-shadow 0.18s ease,
+              border-color 0.18s ease;
+}
+
 .project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   border-color: var(--accent-color);
   color: var(--accent-color);
-}
-
-/* FIX: Restore card structure inside anchor cards */
-.project-card {
-  text-decoration: none;
-}
-
-.project-card h3,
-.project-card p {
-  color: inherit;
-}
-
-.project-card p {
-  margin-top: 0.4rem;
-  line-height: 1.4;
 }
 
 
@@ -154,36 +271,12 @@ a:hover {
   border-radius: 12px;
 }
 
+
 .featured-card {
   border-left: 5px solid var(--accent-color);
   background: var(--accent-soft);
 }
 
-/* =========================
-   NEW — Project Page Wrapper
-   ========================= */
-
-.project-page {
-  background: #ffffff;
-  padding: 3.5rem 3rem;
-  border-radius: 18px;
-}
-
-/* =========================
-   NEW — Section Divider
-   ========================= */
-
-.section-divider {
-  border: none;
-  height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--accent-color),
-    transparent
-  );
-  margin: 3rem 0;
-}
 
 /* =========================
    Capstone Poster Handling
@@ -194,21 +287,45 @@ a:hover {
   padding: 1.5rem;
   background: var(--accent-soft);
   border-radius: 12px;
+  max-width: 100%;
   text-align: center;
 }
 
+
+/* OVERRIDE Minimal Mistakes image rules */
+.page__content .poster-preview img {
+  width: auto;            /* KEY FIX */
+  max-width: 100%;        /* Prevent overflow */
+  max-height: 600px;      /* Controls tall posters */
+  height: auto;
+  display: inline-block;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.poster-preview img {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.poster-preview a:hover img {
+  transform: scale(1.02);
+}
+
+/* === FINAL FIX: Constrain poster preview container === */
+
 .page__content figure.poster-preview {
-  max-width: 420px;
-  margin: auto;
+  max-width: 420px;      /* controls preview size */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page__content figure.poster-preview img {
-  width: 100% !important;
+  width: 100% !important;  /* fill the small container */
+  max-width: 100%;
   height: auto;
 }
 
 /* =========================
-   Typography Polish
+   Typography & Spacing Polish
    ========================= */
 
 .page__content {
