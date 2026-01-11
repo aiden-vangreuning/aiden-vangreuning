@@ -17,11 +17,12 @@ The proposed system explored how miniature biosensing technologies could be embe
 
 ---
 
+<div class="project-section">
 ## Motivation
 Habit relapse is often preceded by subtle physiological and neurological changes associated with stress and cognitive load. Conventional monitoring approaches are typically intrusive, episodic or impractical for long-term use.
 
 The objective of this project was to **conceptualize a discreet, wearable biomedical system** capable of continuously monitoring stress-related biomarkers and neural activity to anticipate relapse risk and enable early, user-centered intervention strategies.
-
+</div>
 ---
 
 ## Conceptual System Architecture
@@ -46,15 +47,18 @@ Several technical challenges were central to the project’s feasibility analysi
 
 Design rationale was informed by BioMEMS literature, wearable sensor research and established biomedical device design principles.
 
+<div class="project-highlight">
 {: .notice--primary}
 **Key Contributions**
 - Contributed to the conceptualization of a multi-modal BioMEMS wearable for relapse risk prediction  
 - Evaluated the integration of neural and biochemical sensing within a single device architecture  
 - Analyzed technical, physiological and usability constraints impacting wearable BioMEMS feasibility  
 - Translated BioMEMS theory and literature into a coherent system-level concept  
+</div>
 
 ---
 
+<div class="content-card">
 ## Technical Documentation
 {: .notice--secondary}
 📄 <a href="{{ site.baseurl }}/assets/pdf/biomems-habit-relapse-device-presentation.pdf"
@@ -63,6 +67,7 @@ Design rationale was informed by BioMEMS literature, wearable sensor research an
      <strong>Final Project Presentation (PDF)</strong>
    </a><br>
 <em>Includes system architecture, design rationale and feasibility analysis.</em>
+</div>
 
 ## Tools & Technologies
 **BioMEMS Principles · Microfluidics · EEG Signal Monitoring**  
