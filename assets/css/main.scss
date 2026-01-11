@@ -63,6 +63,24 @@ a:hover {
   font-weight: 600;
 }
 
+/* Subtle section background */
+.page__content > h2 {
+  scroll-margin-top: 6rem;
+}
+
+.page__content > h2 + p,
+.page__content > h2 + ul,
+.page__content > h2 + ol {
+  background: linear-gradient(
+    to right,
+    var(--accent-soft),
+    transparent
+  );
+  padding: 1.2rem 1.5rem;
+  border-left: 4px solid var(--accent-color);
+  border-radius: 6px;
+}
+
 /* =========================
    Layout Width Adjustments
    ========================= */
