@@ -28,8 +28,6 @@ Over the duration of the course, multiple simulation-based laboratory exercises 
 
 These labs emphasized quantitative reasoning, system-level understanding and the translation of physical principles into clinically relevant metrics.
 
----
-
 ## Computational & Analytical Techniques
 The simulation labs focused on interpreting radiation behaviour through mathematical modeling and computational analysis rather than physical experimentation. Key competencies developed included:
 
@@ -86,9 +84,6 @@ The project emphasized system integration, clinical feasibility and future-facin
      <strong>Final Project Presentation (PDF)</strong>
    </a>
   
-
----
-
 ## Tools & Technologies
 **Radiation Physics · Dose Calculation · LINAC Systems**  
 **Monte Carlo Simulation · Treatment Planning Concepts**  
