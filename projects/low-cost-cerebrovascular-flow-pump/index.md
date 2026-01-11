@@ -32,12 +32,8 @@ The system integrates mechanical, electrical and computational components to ach
 
 Custom control logic was implemented to regulate flow rate and pressure behaviour, enabling the simulation of physiologically relevant cerebrovascular conditions.
 
----
-
 ## Flow Modeling & Data Analysis
 Physiological flow and pressure dynamics were modeled and evaluated using fundamental fluid mechanics principles, including **Poiseuille’s Law**. Flow sensor data were collected and analyzed to validate system performance, repeatability and stability under controlled experimental conditions.
-
----
 
 {: .notice--primary}
 **Key Outcomes & Contributions**
@@ -86,8 +82,6 @@ Physiological flow and pressure dynamics were modeled and evaluated using fundam
      <strong>Final Capstone Report (PDF)</strong>
    </a><br>
 <em>40+ page technical report detailing system design, modeling, validation and results</em>
-
----
 
 ## Tools & Technologies
 **Arduino IDE · Embedded Control Systems · Peristaltic Pumps**  
