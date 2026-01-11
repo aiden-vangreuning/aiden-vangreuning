@@ -127,6 +127,22 @@ a:hover {
   color: var(--accent-color);
 }
 
+/* FIX: Restore card structure inside anchor cards */
+.project-card {
+  text-decoration: none;
+}
+
+.project-card h3,
+.project-card p {
+  color: inherit;
+}
+
+.project-card p {
+  margin-top: 0.4rem;
+  line-height: 1.4;
+}
+
+
 /* =========================
    Soft Highlight Sections
    ========================= */
