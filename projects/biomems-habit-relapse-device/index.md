@@ -38,8 +38,6 @@ Key conceptual components included:
 
 The system architecture prioritized non-invasive sensing, continuous monitoring, and user comfort.
 
----
-
 ## Design Rationale & Technical Considerations
 Several technical challenges were central to the project’s feasibility analysis:
 
@@ -70,8 +68,6 @@ Design rationale was informed by BioMEMS literature, wearable sensor research an
    </a><br>
 <em>Includes system architecture, design rationale and feasibility analysis.</em>
 
----
-
 ## Tools & Technologies
 **BioMEMS Principles · Microfluidics · EEG Signal Monitoring**  
 **Biomedical Device Design · Conceptual System Architecture · Research Analysis**
@@ -82,8 +78,6 @@ Design rationale was informed by BioMEMS literature, wearable sensor research an
 As a conceptual design project, the system was not fabricated or experimentally validated. Limitations include the absence of physical prototyping, in-vivo testing and quantitative assessment of biomarker stability and EEG signal quality in wearable configurations.
 
 Future work would involve microfabrication of sensing components, benchtop validation of tear-based biomarker detection and experimental evaluation of wearable EEG performance. Integration with machine learning–based prediction models could further enhance relapse risk forecasting capability.
-
----
 
 ## Reflection
 This project strengthened my ability to synthesize BioMEMS theory, biomedical sensing principles and human-centered design into a cohesive system concept. It reinforced research-driven problem framing, critical evaluation of feasibility constraints and clear technical communication—skills directly applicable to early-stage biomedical device development and translational research.
