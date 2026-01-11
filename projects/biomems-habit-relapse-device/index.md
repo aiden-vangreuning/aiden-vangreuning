@@ -26,8 +26,6 @@ The objective of this project was to **conceptualize a discreet, wearable biomed
 
 ---
 
-<hr class="section-divider" />
-
 ## Conceptual System Architecture
 The proposed system was explored as a **smart eyewear platform**, integrating multiple sensing modalities into a familiar and socially acceptable form factor. The emphasis was placed on system-level integration and technical feasibility rather than detailed mechanical or microfabricated design.
 
@@ -63,8 +61,6 @@ Design rationale was informed by BioMEMS literature, wearable sensor research an
 
 ---
 
-<hr class="section-divider" />
-
 ## Technical Documentation
 {: .notice--secondary}
 📄 <a href="{{ site.baseurl }}/assets/pdf/biomems-habit-relapse-device-presentation.pdf"
@@ -81,8 +77,6 @@ Design rationale was informed by BioMEMS literature, wearable sensor research an
 **Biomedical Device Design · Conceptual System Architecture · Research Analysis**
 
 ---
-
-<hr class="section-divider" />
 
 ## Limitations & Future Directions
 As a conceptual design project, the system was not fabricated or experimentally validated. Limitations include the absence of physical prototyping, in-vivo testing and quantitative assessment of biomarker stability and EEG signal quality in wearable configurations.
