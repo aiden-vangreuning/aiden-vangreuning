@@ -508,3 +508,58 @@ a:hover {
 .layout--page .page__content a {
   font-weight: 500;
 }
+
+/* =====================================================
+   PROJECT PAGE VISUAL IDENTITY (SKIN-SAFE)
+   ===================================================== */
+
+/* Accent stripe behind each section */
+.layout--page .page__content h2 {
+  position: relative;
+  padding-left: 1.25rem;
+  color: #1e3f52;
+}
+
+/* Vertical accent bar (cannot be overridden by skin) */
+.layout--page .page__content h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 6px;
+  height: 1.2em;
+  background: var(--accent-color);
+  border-radius: 3px;
+}
+
+/* Subtle section separation without backgrounds */
+.layout--page .page__content h2::after {
+  content: "";
+  display: block;
+  margin-top: 0.75rem;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    var(--accent-color),
+    transparent
+  );
+  opacity: 0.4;
+}
+
+/* Emphasize key blocks (PDFs, diagrams, summaries) */
+.layout--page .content-card {
+  position: relative;
+  border-left: 6px solid var(--accent-color);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+}
+
+/* Make notices feel intentional */
+.layout--page .notice {
+  border-left-width: 6px;
+}
+
+/* Add visual rhythm between sections */
+.layout--page .page__content > * + h2 {
+  margin-top: 4.5rem;
+}
