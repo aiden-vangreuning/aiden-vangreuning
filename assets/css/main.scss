@@ -444,3 +444,67 @@ a:hover {
   background: var(--accent-soft);
   border-left: 6px solid var(--accent-color);
 }
+
+/* =====================================================
+   PROJECT PAGE COLOR & STRUCTURE (SAFE, SCOPED)
+   ===================================================== */
+
+/* Only applies to project pages, never homepage */
+.layout--page .page__content {
+
+  /* slightly warmer background so white isn't harsh */
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #fafcfe
+  );
+}
+
+/* Project section headers — THIS is where colour appears */
+.layout--page .page__content h2 {
+  color: #1f4f66;
+  border-bottom: none;
+  padding-left: 1rem;
+  position: relative;
+}
+
+/* Accent bar to the left of section titles */
+.layout--page .page__content h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  height: 1.2em;
+  width: 5px;
+  background: var(--accent-color);
+  border-radius: 3px;
+}
+
+/* Soft coloured block for long text sections */
+.layout--page .page__content p,
+.layout--page .page__content ul,
+.layout--page .page__content ol {
+  max-width: 68ch;
+}
+
+/* Highlight important blocks (PDFs, diagrams, summaries) */
+.layout--page .content-card {
+  background: linear-gradient(
+    to bottom right,
+    var(--accent-soft),
+    #ffffff
+  );
+  border-left: 6px solid var(--accent-color);
+}
+
+/* Notices get stronger contrast on project pages */
+.layout--page .notice--info,
+.layout--page .notice--primary,
+.layout--page .notice--secondary {
+  border-left-width: 6px;
+}
+
+/* Links inside project pages feel intentional */
+.layout--page .page__content a {
+  font-weight: 500;
+}
