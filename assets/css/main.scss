@@ -563,3 +563,33 @@ a:hover {
 .layout--page .page__content > * + h2 {
   margin-top: 4.5rem;
 }
+
+/* =====================================================
+   PROJECT PAGE COLOR — CONTRAST SKIN SAFE
+   ===================================================== */
+
+/* Section headers: left accent bar */
+.layout--page .page__content h2 {
+  border-left: 6px solid var(--accent-color) !important;
+  padding-left: 1rem;
+  color: #1e3f52;
+}
+
+/* Subtle separation between sections */
+.layout--page .page__content h2 + p,
+.layout--page .page__content h2 + ul,
+.layout--page .page__content h2 + ol {
+  border-left: 3px solid rgba(47,111,143,0.25);
+  padding-left: 1.25rem;
+}
+
+/* Emphasize key blocks (PDFs, diagrams) */
+.layout--page .content-card {
+  border-left: 6px solid var(--accent-color) !important;
+}
+
+/* Notices feel intentional */
+.layout--page .notice {
+  border-left-width: 6px;
+}
+
