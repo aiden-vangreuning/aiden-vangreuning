@@ -402,3 +402,45 @@ a:hover {
   background: var(--accent-soft);
   border-left: 6px solid var(--accent-color);
 }
+
+/* ==================================================
+   PROJECT PAGE COLOR OVERRIDES (MM-safe)
+   ================================================== */
+
+.layout--page .page__content .page__content h2 {
+  color: var(--accent-color);
+}
+
+.layout--page .page__content .page__content h3 {
+  color: var(--accent-color);
+}
+
+.layout--page .page__content .page__content p,
+.layout--page .page__content .page__content ul,
+.layout--page .page__content .page__content ol {
+  border-left: 3px solid rgba(47, 111, 143, 0.18);
+  padding-left: 1rem;
+}
+
+/* Notices */
+.layout--page .page__content .notice--info,
+.layout--page .page__content .notice--primary,
+.layout--page .page__content .notice--secondary {
+  border-left: 6px solid var(--accent-color);
+}
+
+/* Content cards */
+.layout--page .page__content .content-card {
+  background: linear-gradient(
+    to bottom right,
+    #ffffff,
+    var(--accent-soft)
+  );
+  border-left: 6px solid var(--accent-color);
+}
+
+/* Project sections */
+.layout--page .page__content .project-section {
+  background: var(--accent-soft);
+  border-left: 6px solid var(--accent-color);
+}
