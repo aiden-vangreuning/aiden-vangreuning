@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Conceptual BioMEMS Wearable for Habit Relapse Prediction
 permalink: /projects/conceptual-eeg-and-biomems-device-design
 classes: project-page
