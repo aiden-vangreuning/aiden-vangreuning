@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: ECG Signal Processing for Cerebromicrovascular Disease Analysis
 permalink: /projects/signal-processing-cerebromicrovascular-disease/
 classes: project-page
