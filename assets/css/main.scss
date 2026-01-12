@@ -3,9 +3,9 @@
 
 @import "minimal-mistakes";
 
-/* =========================
-   Global Color System
-   ========================= */
+/* ==================================================
+   GLOBAL COLOR SYSTEM
+   ================================================== */
 
 :root {
   --accent-color: #2f6f8f;   /* medical blue */
@@ -13,9 +13,9 @@
   --accent-hover: #24576f;
 }
 
-/* =========================
-   Links
-   ========================= */
+/* ==================================================
+   LINKS
+   ================================================== */
 
 a {
   color: var(--accent-color);
@@ -25,9 +25,9 @@ a:hover {
   color: var(--accent-hover);
 }
 
-/* =========================
-   Buttons
-   ========================= */
+/* ==================================================
+   BUTTONS
+   ================================================== */
 
 .btn-primary {
   background-color: var(--accent-color);
@@ -38,103 +38,23 @@ a:hover {
   background-color: var(--accent-hover);
 }
 
-/* =========================
-   Headings & Section Spacing
-   ========================= */
-
-.page__content h2 {
-  margin-top: 3.5rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 2px solid #e6e6e6;
-  position: relative;
-  color: #1f3f50; /* subtle darker blue for hierarchy */
-}
-
-.page__content h2::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: var(--accent-color);
-  margin-top: 0.4rem;
-  border-radius: 2px;
-}
-
-.page__content h3 {
-  margin-top: 2.5rem;
-  color: var(--accent-color);
-  font-weight: 600;
-}
-
-/* =========================
-   Section Highlighting (SAFE)
-   ========================= */
-
-/* anchor spacing */
-.page__content > h2 {
-  scroll-margin-top: 6rem;
-}
-
-/* highlight the FIRST content block under each section */
-.page__content > h2 + * {
-  background: linear-gradient(
-    to right,
-    var(--accent-soft),
-    transparent
-  );
-  padding: 1.4rem 1.6rem;
-  border-left: 4px solid var(--accent-color);
-  border-radius: 8px;
-  margin-top: 1.25rem;
-}
-
-/* =========================
-   Layout Width Adjustments
-   ========================= */
-
-.page__inner-wrap {
-  max-width: 1200px;
-}
+/* ==================================================
+   GLOBAL TYPOGRAPHY
+   ================================================== */
 
 .page__content {
-  max-width: 100%;
+  max-width: 1100px;
+  margin: auto;
 }
 
-/* Prevent horizontal scrolling from large media */
-.page__content img {
-  max-width: 100%;
-  height: auto;
+.page__content p {
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
 }
 
-/* =========================
-   REMOVE BLOG / FEED UI
-   ========================= */
-
-.page__meta,
-.page__taxonomy,
-.page__date,
-.page__reading-time,
-.page__footer-meta {
-  display: none !important;
-}
-
-.feed-subscribe,
-.feed-subscribe a,
-.fa-rss,
-.fa-feed,
-.rss-subscribe {
-  display: none !important;
-}
-
-.pagination,
-.page__share,
-.page__related {
-  display: none !important;
-}
-
-/* =========================
+/* ==================================================
    HERO SECTION
-   ========================= */
+   ================================================== */
 
 .hero {
   min-height: 75vh;
@@ -182,26 +102,9 @@ a:hover {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
-.hero::after {
-  content: "";
-  display: block;
-  margin-top: 4rem;
-  height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    rgba(0, 0, 0, 0.15),
-    transparent
-  );
-}
-
-/* =========================
-   Projects Grid
-   ========================= */
-
-.projects {
-  margin-top: 3rem;
-}
+/* ==================================================
+   PROJECT GRID (HOMEPAGE CARDS)
+   ================================================== */
 
 .project-grid {
   display: grid;
@@ -245,29 +148,9 @@ a:hover {
   color: var(--accent-color);
 }
 
-/* =========================
-   Project Page Cards
-   ========================= */
-
-.project-section {
-  background: var(--accent-soft);
-  padding: 2.5rem 2rem;
-  border-radius: 14px;
-  margin: 3rem 0;
-}
-
-.content-card {
-  background: #ffffff;
-  border-left: 6px solid var(--accent-color);
-  border-radius: 14px;
-  padding: 1.75rem;
-  margin: 3rem 0;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
-}
-
-/* =========================
-   Capstone Poster Handling
-   ========================= */
+/* ==================================================
+   POSTER HANDLING
+   ================================================== */
 
 .poster-preview {
   margin: 3rem auto;
@@ -289,251 +172,55 @@ a:hover {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* =========================
-   Typography Polish
-   ========================= */
+/* ==================================================
+   REMOVE BLOG / FEED UI
+   ================================================== */
 
-.page__content {
-  max-width: 1100px;
-  margin: auto;
-}
-
-.page__content p {
-  line-height: 1.7;
-  margin-bottom: 1.25rem;
-}
-
-/* =========================
-   Section Dividers (---)
-   ========================= */
-
-.page__content hr {
-  border: none;
-  height: 2px;
-  margin: 4rem 0;
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--accent-color),
-    transparent
-  );
-  opacity: 0.6;
-}
-
-/* =========================
-   FORCE COLOR ON PROJECT PAGES
-   ========================= */
-
-/* Section headers */
-.page__content h2 {
-  color: #1f3f50;
-}
-
-.page__content h3 {
-  color: var(--accent-color);
-}
-
-/* Paragraph & list accent */
-.page__content p,
-.page__content ul,
-.page__content ol {
-  border-left: 3px solid rgba(47, 111, 143, 0.15);
-  padding-left: 1rem;
-}
-
-/* Notices already have background — enhance them */
-.notice--info,
-.notice--primary,
-.notice--secondary {
-  border-left-width: 6px;
-}
-
-/* Content cards (PDFs, diagrams, images) */
-.content-card {
-  background: linear-gradient(
-    to bottom right,
-    #ffffff,
-    var(--accent-soft)
-  );
-  border-left: 6px solid var(--accent-color);
-}
-
-/* Project sections */
-.project-section {
-  background: var(--accent-soft);
-  border-left: 6px solid var(--accent-color);
-}
-
-/* =========================
-   FORCE PROJECT PAGE STYLING
-   ========================= */
-
-.layout--page .page__content h2 {
-  color: var(--accent-color);
-}
-
-.layout--page .page__content h3 {
-  color: var(--accent-color);
-}
-
-.layout--page .page__content p,
-.layout--page .page__content ul,
-.layout--page .page__content ol {
-  border-left: 3px solid rgba(47, 111, 143, 0.18);
-  padding-left: 1rem;
-}
-
-.layout--page .notice--info,
-.layout--page .notice--primary,
-.layout--page .notice--secondary {
-  border-left: 6px solid var(--accent-color);
-}
-
-.layout--page .content-card {
-  background: linear-gradient(
-    to bottom right,
-    #ffffff,
-    var(--accent-soft)
-  );
-  border-left: 6px solid var(--accent-color);
-}
-
-.layout--page .project-section {
-  background: var(--accent-soft);
-  border-left: 6px solid var(--accent-color);
+.page__meta,
+.page__taxonomy,
+.page__date,
+.page__reading-time,
+.page__footer-meta,
+.page__share,
+.page__related,
+.pagination {
+  display: none !important;
 }
 
 /* ==================================================
-   PROJECT PAGE COLOR OVERRIDES (MM-safe)
+   ==================================================
+   PROJECT PAGES ONLY (URL-SCOPED, MM SAFE)
+   ==================================================
    ================================================== */
 
-.layout--page .page__content .page__content h2 {
-  color: var(--accent-color);
+/* Background softening */
+body[data-url^="/aiden-vangreuning/projects"] .page__content {
+  background: linear-gradient(to bottom, #ffffff, #fafcfe);
 }
 
-.layout--page .page__content .page__content h3 {
-  color: var(--accent-color);
-}
-
-.layout--page .page__content .page__content p,
-.layout--page .page__content .page__content ul,
-.layout--page .page__content .page__content ol {
-  border-left: 3px solid rgba(47, 111, 143, 0.18);
-  padding-left: 1rem;
-}
-
-/* Notices */
-.layout--page .page__content .notice--info,
-.layout--page .page__content .notice--primary,
-.layout--page .page__content .notice--secondary {
-  border-left: 6px solid var(--accent-color);
-}
-
-/* Content cards */
-.layout--page .page__content .content-card {
-  background: linear-gradient(
-    to bottom right,
-    #ffffff,
-    var(--accent-soft)
-  );
-  border-left: 6px solid var(--accent-color);
-}
-
-/* Project sections */
-.layout--page .page__content .project-section {
-  background: var(--accent-soft);
-  border-left: 6px solid var(--accent-color);
-}
-
-/* =====================================================
-   PROJECT PAGE COLOR & STRUCTURE (SAFE, SCOPED)
-   ===================================================== */
-
-/* Only applies to project pages, never homepage */
-.layout--page .page__content {
-
-  /* slightly warmer background so white isn't harsh */
-  background: linear-gradient(
-    to bottom,
-    #ffffff,
-    #fafcfe
-  );
-}
-
-/* Project section headers — THIS is where colour appears */
-.layout--page .page__content h2 {
+/* Section headers */
+body[data-url^="/aiden-vangreuning/projects"] .page__content h2 {
   color: #1f4f66;
-  border-bottom: none;
-  padding-left: 1rem;
   position: relative;
+  padding-left: 1.25rem;
+  margin-top: 4.5rem;
+  border-bottom: none;
 }
 
-/* Accent bar to the left of section titles */
-.layout--page .page__content h2::before {
+/* Accent bar */
+body[data-url^="/aiden-vangreuning/projects"] .page__content h2::before {
   content: "";
   position: absolute;
   left: 0;
   top: 0.2em;
-  height: 1.2em;
-  width: 5px;
-  background: var(--accent-color);
-  border-radius: 3px;
-}
-
-/* Soft coloured block for long text sections */
-.layout--page .page__content p,
-.layout--page .page__content ul,
-.layout--page .page__content ol {
-  max-width: 68ch;
-}
-
-/* Highlight important blocks (PDFs, diagrams, summaries) */
-.layout--page .content-card {
-  background: linear-gradient(
-    to bottom right,
-    var(--accent-soft),
-    #ffffff
-  );
-  border-left: 6px solid var(--accent-color);
-}
-
-/* Notices get stronger contrast on project pages */
-.layout--page .notice--info,
-.layout--page .notice--primary,
-.layout--page .notice--secondary {
-  border-left-width: 6px;
-}
-
-/* Links inside project pages feel intentional */
-.layout--page .page__content a {
-  font-weight: 500;
-}
-
-/* =====================================================
-   PROJECT PAGE VISUAL IDENTITY (SKIN-SAFE)
-   ===================================================== */
-
-/* Accent stripe behind each section */
-.layout--page .page__content h2 {
-  position: relative;
-  padding-left: 1.25rem;
-  color: #1e3f52;
-}
-
-/* Vertical accent bar (cannot be overridden by skin) */
-.layout--page .page__content h2::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.15em;
   width: 6px;
   height: 1.2em;
   background: var(--accent-color);
   border-radius: 3px;
 }
 
-/* Subtle section separation without backgrounds */
-.layout--page .page__content h2::after {
+/* Subtle divider */
+body[data-url^="/aiden-vangreuning/projects"] .page__content h2::after {
   content: "";
   display: block;
   margin-top: 0.75rem;
@@ -544,52 +231,37 @@ a:hover {
     var(--accent-color),
     transparent
   );
-  opacity: 0.4;
+  opacity: 0.35;
 }
 
-/* Emphasize key blocks (PDFs, diagrams, summaries) */
-.layout--page .content-card {
-  position: relative;
-  border-left: 6px solid var(--accent-color);
-  box-shadow: 0 8px 22px rgba(0,0,0,0.06);
-}
-
-/* Make notices feel intentional */
-.layout--page .notice {
-  border-left-width: 6px;
-}
-
-/* Add visual rhythm between sections */
-.layout--page .page__content > * + h2 {
-  margin-top: 4.5rem;
-}
-
-/* =====================================================
-   PROJECT PAGE COLOR — CONTRAST SKIN SAFE
-   ===================================================== */
-
-/* Section headers: left accent bar */
-.layout--page .page__content h2 {
-  border-left: 6px solid var(--accent-color) !important;
-  padding-left: 1rem;
-  color: #1e3f52;
-}
-
-/* Subtle separation between sections */
-.layout--page .page__content h2 + p,
-.layout--page .page__content h2 + ul,
-.layout--page .page__content h2 + ol {
+/* First content block under headers */
+body[data-url^="/aiden-vangreuning/projects"] .page__content h2 + p,
+body[data-url^="/aiden-vangreuning/projects"] .page__content h2 + ul,
+body[data-url^="/aiden-vangreuning/projects"] .page__content h2 + ol {
   border-left: 3px solid rgba(47,111,143,0.25);
   padding-left: 1.25rem;
 }
 
-/* Emphasize key blocks (PDFs, diagrams) */
-.layout--page .content-card {
-  border-left: 6px solid var(--accent-color) !important;
+/* Content cards (PDFs, diagrams, figures) */
+body[data-url^="/aiden-vangreuning/projects"] .content-card {
+  background: linear-gradient(
+    to bottom right,
+    var(--accent-soft),
+    #ffffff
+  );
+  border-left: 6px solid var(--accent-color);
+  border-radius: 14px;
+  padding: 1.75rem;
+  margin: 3rem 0;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.06);
 }
 
-/* Notices feel intentional */
-.layout--page .notice {
+/* Notices */
+body[data-url^="/aiden-vangreuning/projects"] .notice {
   border-left-width: 6px;
 }
 
+/* Links feel intentional */
+body[data-url^="/aiden-vangreuning/projects"] .page__content a {
+  font-weight: 500;
+}
