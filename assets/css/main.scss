@@ -265,3 +265,74 @@ body[data-url^="/aiden-vangreuning/projects"] .notice {
 body[data-url^="/aiden-vangreuning/projects"] .page__content a {
   font-weight: 500;
 }
+
+/* =====================================================
+   PROJECT PAGE COLOR — FINAL, STRUCTURE-AWARE FIX
+   ===================================================== */
+
+/* Target the INNER page content only */
+.layout--page .page__content .page__content {
+
+  /* subtle background tint so page isn't stark white */
+  background: linear-gradient(to bottom, #ffffff, #f8fbfd);
+}
+
+/* Section headers */
+.layout--page .page__content .page__content h2 {
+  color: #1f4f66;
+  position: relative;
+  padding-left: 1.25rem;
+  border-bottom: none;
+}
+
+/* Accent bar */
+.layout--page .page__content .page__content h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.2em;
+  width: 6px;
+  height: 1.2em;
+  background: var(--accent-color);
+  border-radius: 3px;
+}
+
+/* Soft divider under titles */
+.layout--page .page__content .page__content h2::after {
+  content: "";
+  display: block;
+  margin-top: 0.75rem;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    var(--accent-color),
+    transparent
+  );
+  opacity: 0.35;
+}
+
+/* Body text blocks */
+.layout--page .page__content .page__content p,
+.layout--page .page__content .page__content ul,
+.layout--page .page__content .page__content ol {
+  border-left: 3px solid rgba(47,111,143,0.25);
+  padding-left: 1.25rem;
+}
+
+/* Content cards (PDFs, images, diagrams) */
+.layout--page .page__content .page__content .content-card {
+  background: linear-gradient(
+    to bottom right,
+    var(--accent-soft),
+    #ffffff
+  );
+  border-left: 6px solid var(--accent-color);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.06);
+}
+
+/* Notices */
+.layout--page .page__content .page__content .notice {
+  border-left-width: 6px;
+}
+
