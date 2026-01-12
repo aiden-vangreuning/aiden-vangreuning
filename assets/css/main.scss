@@ -8,7 +8,7 @@ GLOBAL COLOR SYSTEM
 ================================================== */
 :root {
   --accent-color: #2f6f8f;   /* medical blue */
-  --accent-soft: #f2f7fa;    /* soft background */
+  --accent-soft: #f2f7fa;   /* soft background */
   --accent-hover: #24576f;
 }
 
@@ -165,92 +165,12 @@ REMOVE BLOG / FEED UI
 }
 
 /* ==================================================
-PROJECT PAGES ONLY (SAFE, MM-AWARE)
+PROJECT PAGES ONLY (EXPLICIT + SAFE)
 ================================================== */
 
-/* Scope ONLY to project pages via layout */
-.layout--page {
+.project-page {
 
-  /* Slight background tint so pages aren’t stark white */
-  .page__content {
-    background: linear-gradient(to bottom, #ffffff, #fafcfe);
-  }
-
-  /* Section headers */
-  h2 {
-    position: relative;
-    padding-left: 1.25rem;
-    color: #1f4f66;
-    margin-top: 4rem;
-    border-bottom: none;
-  }
-
-  /* Accent bar beside section titles */
-  h2::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0.2em;
-    width: 6px;
-    height: 1.2em;
-    background: var(--accent-color);
-    border-radius: 3px;
-  }
-
-  /* Soft divider under titles */
-  h2::after {
-    content: "";
-    display: block;
-    margin-top: 0.75rem;
-    height: 2px;
-    background: linear-gradient(
-      to right,
-      var(--accent-color),
-      transparent
-    );
-    opacity: 0.35;
-  }
-
-  /* First content block under headers */
-  h2 + p,
-  h2 + ul,
-  h2 + ol {
-    border-left: 3px solid rgba(47,111,143,0.25);
-    padding-left: 1.25rem;
-  }
-
-  /* Content cards (PDFs, images, diagrams) */
-  .content-card {
-    background: linear-gradient(
-      to bottom right,
-      var(--accent-soft),
-      #ffffff
-    );
-    border-left: 6px solid var(--accent-color);
-    border-radius: 14px;
-    padding: 1.75rem;
-    margin: 3rem 0;
-    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
-  }
-
-  /* Notices */
-  .notice {
-    border-left-width: 6px;
-  }
-
-  /* Links feel intentional */
-  a {
-    font-weight: 500;
-  }
-}
-
-/* ==================================================
-PROJECT PAGES — FINAL FIX (CORRECT LAYOUT)
-================================================== */
-
-.layout--single {
-
-  /* soften page background */
+  /* soft page background */
   .page__content {
     background: linear-gradient(to bottom, #ffffff, #f7fbfd);
   }
@@ -290,7 +210,7 @@ PROJECT PAGES — FINAL FIX (CORRECT LAYOUT)
     opacity: 0.35;
   }
 
-  /* first content block under headers */
+  /* first block under headers */
   h2 + p,
   h2 + ul,
   h2 + ol {
@@ -298,7 +218,7 @@ PROJECT PAGES — FINAL FIX (CORRECT LAYOUT)
     padding-left: 1.25rem;
   }
 
-  /* content cards */
+  /* content cards (PDFs, images, diagrams) */
   .content-card {
     background: linear-gradient(
       to bottom right,
@@ -316,5 +236,9 @@ PROJECT PAGES — FINAL FIX (CORRECT LAYOUT)
   .notice {
     border-left-width: 6px;
   }
-}
 
+  /* links feel intentional */
+  a {
+    font-weight: 500;
+  }
+}
