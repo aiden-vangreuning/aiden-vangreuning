@@ -243,3 +243,78 @@ PROJECT PAGES ONLY (SAFE, MM-AWARE)
     font-weight: 500;
   }
 }
+
+/* ==================================================
+PROJECT PAGES — FINAL FIX (CORRECT LAYOUT)
+================================================== */
+
+.layout--single {
+
+  /* soften page background */
+  .page__content {
+    background: linear-gradient(to bottom, #ffffff, #f7fbfd);
+  }
+
+  /* section headers */
+  h2 {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-top: 4rem;
+    color: #1f4f66;
+    border-bottom: none;
+  }
+
+  /* accent bar */
+  h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+    width: 6px;
+    height: 1.2em;
+    background: var(--accent-color);
+    border-radius: 3px;
+  }
+
+  /* subtle divider */
+  h2::after {
+    content: "";
+    display: block;
+    margin-top: 0.75rem;
+    height: 2px;
+    background: linear-gradient(
+      to right,
+      var(--accent-color),
+      transparent
+    );
+    opacity: 0.35;
+  }
+
+  /* first content block under headers */
+  h2 + p,
+  h2 + ul,
+  h2 + ol {
+    border-left: 3px solid rgba(47,111,143,0.25);
+    padding-left: 1.25rem;
+  }
+
+  /* content cards */
+  .content-card {
+    background: linear-gradient(
+      to bottom right,
+      var(--accent-soft),
+      #ffffff
+    );
+    border-left: 6px solid var(--accent-color);
+    border-radius: 14px;
+    padding: 1.75rem;
+    margin: 3rem 0;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.06);
+  }
+
+  /* notices */
+  .notice {
+    border-left-width: 6px;
+  }
+}
+
