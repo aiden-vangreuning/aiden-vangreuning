@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Cell Culture & Tissue Engineering Laboratory Portfolio
 permalink: /projects/cell-culture-laboratory-experiments/
 classes: project-page
