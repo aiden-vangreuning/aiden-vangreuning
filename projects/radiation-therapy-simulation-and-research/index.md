@@ -2,6 +2,7 @@
 layout: page
 title: Radiation Therapy Simulation & Treatment Planning Concepts
 permalink: /projects/radiation-therapy-simulation-and-research/
+classes: project-page
 ---
 
 ## Overview
