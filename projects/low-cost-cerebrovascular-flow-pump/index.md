@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Low-Cost Cerebrovascular Flow Pump
 permalink: /projects/low-cost-cerebrovascular-flow-pump/
 classes: project-page
