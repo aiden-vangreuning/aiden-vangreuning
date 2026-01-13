@@ -242,3 +242,18 @@ PROJECT PAGES ONLY (EXPLICIT + SAFE)
     font-weight: 500;
   }
 }
+
+.poster-preview {
+  position: relative;
+}
+
+.poster-preview a {
+  position: relative;
+  z-index: 5;
+  pointer-events: auto;
+}
+
+.poster-preview img {
+  pointer-events: auto;
+}
+
