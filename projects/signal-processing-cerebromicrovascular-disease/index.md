@@ -75,19 +75,23 @@ Logistic regression was selected for final evaluation due to its interpretabilit
 ## Technical Documentation
 {: .notice--secondary}
 
+<div class="pdf-links">
+
 📄 <a href="{{ site.baseurl }}/assets/pdf/ecg-signal-processing-summary-and-report.pdf"
      target="_blank"
      rel="noopener">
      <strong>Final Technical Report (PDF)</strong>
    </a>
-
-<br><br>
+<em>Comprehensive report covering ECG signal acquisition, filtering, and analysis.</em>
 
 📄 <a href="{{ site.baseurl }}/assets/pdf/ecg-signal-processing-presentation.pdf"
      target="_blank"
      rel="noopener">
      <strong>Project Presentation (PDF)</strong>
    </a>
+<em>Presentation summarizing methodology, results, and key signal processing insights.</em>
+
+</div>
 
 ## Tools & Technologies
 **MATLAB · Pan–Tompkins Algorithm · ECG Interpretation**  
