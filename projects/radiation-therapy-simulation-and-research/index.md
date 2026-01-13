@@ -12,7 +12,7 @@ Through structured simulation labs and a final project, core concepts in radiati
 
 {: .notice--info}
 **Project Type:** Academic Simulation & Design Portfolio  
-**Duration:** One academic term  
+**Duration:** 4 months (One academic term)  
 **Focus Areas:** Radiation Physics · Dose Calculation · Treatment Planning  
 **Role:** Simulation analysis, theoretical modeling, project design and technical reporting
 
@@ -62,28 +62,24 @@ The project emphasized system integration, clinical feasibility and future-facin
 ## Technical Documentation
 {: .notice--secondary}
 
-📄 <a href="{{ site.baseurl }}/assets/pdf/radiation-therapy-simulation-lab-4.pdf"
-     target="_blank"
-     rel="noopener">
-     <strong>Representative Radiation Therapy Lab Report (PDF)</strong>
-   </a><br>
-<em>Selected from multiple simulation labs conducted over the term.</em>
+<div class="pdf-links">
+  📄 <a href="{{ site.baseurl }}/assets/pdf/radiation-therapy-simulation-lab-4.pdf"
+       target="_blank" rel="noopener">
+       <strong>Representative Radiation Therapy Lab Report (PDF)</strong>
+  </a>
+  <em>Selected from multiple simulation labs conducted over the term.</em>
 
-<br><br>
+  📄 <a href="{{ site.baseurl }}/assets/pdf/radiation-treatment-planning-final-report.pdf"
+       target="_blank" rel="noopener">
+       <strong>Final Project Report (PDF)</strong>
+  </a>
 
-📄 <a href="{{ site.baseurl }}/assets/pdf/radiation-treatment-planning-final-report.pdf"
-     target="_blank"
-     rel="noopener">
-     <strong>Final Project Report (PDF)</strong>
-   </a>
+  📄 <a href="{{ site.baseurl }}/assets/pdf/radiation-treatment-planning-presentation.pdf"
+       target="_blank" rel="noopener">
+       <strong>Final Project Presentation (PDF)</strong>
+  </a>
+</div>
 
-<br><br>
-
-📄 <a href="{{ site.baseurl }}/assets/pdf/radiation-treatment-planning-presentation.pdf"
-     target="_blank"
-     rel="noopener">
-     <strong>Final Project Presentation (PDF)</strong>
-   </a>
   
 ## Tools & Technologies
 **Radiation Physics · Dose Calculation · LINAC Systems**  
