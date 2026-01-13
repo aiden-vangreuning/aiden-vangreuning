@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: Low-Cost Cerebrovascular Flow Pump
 no_lightbox: true
 permalink: /projects/low-cost-cerebrovascular-flow-pump/
