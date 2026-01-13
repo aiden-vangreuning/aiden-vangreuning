@@ -58,21 +58,14 @@ Physiological flow and pressure dynamics were modeled and evaluated using fundam
 </figure>
 
 ### Presentation Board
+{: .notice--secondary}
 
-<a href="{{ site.baseurl }}/assets/images/capstone/vy09-presentation-board.png"
-   target="_blank"
-   rel="noopener noreferrer"
-   style="display:block; max-width:420px; margin:auto; text-align:center;">
-  <img src="{{ site.baseurl }}/assets/images/capstone/vy09-presentation-board.png"
-       alt="Capstone Presentation Board"
-       width="100%"
-       loading="lazy"
-       style="cursor:pointer; box-shadow:0 12px 30px rgba(0,0,0,0.12); border-radius:12px;">
-</a>
-
-<p style="text-align:center; font-style:italic; max-width:420px; margin:auto; margin-top:0.5em;">
-  Capstone presentation board (click to view full resolution).
-</p>
+📌 <a href="{{ site.baseurl }}/assets/images/capstone/vy09-presentation-board.png"
+      target="_blank"
+      rel="noopener noreferrer">
+      <strong>Capstone Presentation Board (PNG)</strong>
+    </a><br>
+<em>Click to view full resolution of the presentation board.</em>
 
 ---
 
