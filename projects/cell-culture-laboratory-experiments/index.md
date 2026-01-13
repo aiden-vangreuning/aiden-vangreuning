@@ -15,7 +15,7 @@ To illustrate the scope and quality of the laboratory work, a representative lab
 
 {: .notice--info}
 **Project Type:** Academic Laboratory Portfolio  
-**Duration:** One academic term  
+**Duration:** 4 months (One academic term)  
 **Environment:** CL2 Wet Laboratory  
 **Focus Areas:** Cell Culture · Microscopy · Biomaterials · Experimental Analysis  
 **Role:** Experimental execution, data analysis and technical reporting
