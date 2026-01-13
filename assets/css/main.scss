@@ -257,3 +257,8 @@ PROJECT PAGES ONLY (EXPLICIT + SAFE)
   pointer-events: auto;
 }
 
+/* Prevent Minimal Mistakes lightbox on PNGs with data-lightbox="ignore" */
+.poster-preview[data-lightbox="ignore"] a {
+  pointer-events: auto !important;
+}
+
