@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Low-Cost Cerebrovascular Flow Pump
+no_lightbox: true
 permalink: /projects/low-cost-cerebrovascular-flow-pump/
 classes: project-page
 ---
@@ -58,13 +59,20 @@ Physiological flow and pressure dynamics were modeled and evaluated using fundam
 
 ### Presentation Board
 
-<div style="text-align:center; max-width:420px; margin:auto; background:#f2f7fa; border-radius:12px; padding:1.5rem;">
-  <a href="{{ site.baseurl }}/assets/images/capstone/vy09-presentation-board.png" target="_blank" rel="noopener noreferrer">
-    <img src="{{ site.baseurl }}/assets/images/capstone/vy09-presentation-board.png" alt="Capstone Presentation Board" width="100%" loading="lazy" style="cursor:pointer; box-shadow:0 12px 30px rgba(0,0,0,0.12); border-radius:12px;">
+<figure style="text-align: center; max-width: 420px; margin: auto; background: #f2f7fa; border-radius: 12px; padding: 1.5rem;">
+  <a href="{{ site.baseurl }}/assets/images/capstone/vy09-presentation-board.png"
+     target="_blank"
+     rel="noopener noreferrer">
+    <img src="{{ site.baseurl }}/assets/images/capstone/vy09-presentation-board.png"
+         alt="Capstone Presentation Board"
+         width="100%"
+         loading="lazy"
+         style="cursor: pointer; box-shadow: 0 12px 30px rgba(0,0,0,0.12); border-radius: 12px;">
   </a>
-  <p style="margin-top:0.5em; font-style:italic;">Capstone presentation board (click to view full resolution).</p>
-</div>
-
+  <figcaption>
+    Capstone presentation board (click to view full resolution).
+  </figcaption>
+</figure>
 
 ---
 
