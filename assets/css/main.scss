@@ -243,6 +243,22 @@ PROJECT PAGES ONLY (EXPLICIT + SAFE)
   }
 }
 
+.pdf-links a {
+  display: block;          // puts each link on its own line
+  margin-bottom: 0.75rem;  // uniform spacing between links
+}
+
+.pdf-links a:last-child {
+  margin-bottom: 0;        // no extra space after last link
+}
+
+.pdf-links em {
+  display: block;           // keeps descriptions below links
+  margin-top: -0.5rem;     // optional, pulls description closer to link
+  margin-bottom: 0.75rem;  // spacing before next link
+}
+
+
 .poster-preview {
   position: relative;
 }
