@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Low-Cost Cerebrovascular Flow Pump
 no_lightbox: true
 permalink: /projects/low-cost-cerebrovascular-flow-pump/
@@ -13,7 +13,7 @@ Typically assigned to a four-person team, the project was executed independently
 
 {: .notice--info}
 **Project Type:** Independent Capstone Design and Protoype  
-**Duration:** 8 months  
+**Duration:** 8 months (2 academic semesters)  
 **Focus Areas:** Pulsatile Flow Modeling · Embedded Control · Experimental Validation  
 **Role:** Sole designer, developer and analyst
 
@@ -56,6 +56,8 @@ Physiological flow and pressure dynamics were modeled and evaluated using fundam
     Final assembled low-cost cerebrovascular flow pump integrated with a 3D-printed Circle of Willis model for experimental validation.
   </figcaption>
 </figure>
+
+---
 
 ### Presentation Board
 {: .notice--secondary}
