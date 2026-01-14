@@ -89,6 +89,15 @@ HERO SECTION (HOMEPAGE ONLY)
 }
 
 /* ==================================================
+HOMEPAGE MARKDOWN CONTENT ALIGNMENT FIX
+================================================== */
+
+.home .page__content {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* ==================================================
 PROJECT GRID (HOMEPAGE CARDS)
 ================================================== */
 .project-grid {
