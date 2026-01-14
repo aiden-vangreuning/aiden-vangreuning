@@ -2,7 +2,7 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: contrast
 
 
-title: Home
+title: Aiden Van Greuning
 description: Biomedical Engineering Portfolio
 
 url: "https://aiden-vangreuning.github.io"
@@ -10,10 +10,6 @@ baseurl: "/aiden-vangreuning"
 
 plugins:
   - jekyll-include-cache
-
-header_pages:
-  - index.md
-  - projects.md
 
 atom_feed:
   hide: true
