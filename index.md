@@ -1,6 +1,6 @@
 ---
 layout: home-custom
-title: Home
+title: Portfolio
 ---
 <section class="hero">
   <div class="hero-inner">
