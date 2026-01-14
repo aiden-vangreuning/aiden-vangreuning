@@ -1,7 +1,4 @@
 main:
-  - title: "Portfolio"
-    url: /
-
   - title: "Projects"
     url: /#projects
 
