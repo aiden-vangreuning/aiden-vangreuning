@@ -89,6 +89,47 @@ HERO SECTION (HOMEPAGE ONLY)
 }
 
 /* ==================================================
+HERO ACTION BUTTONS
+================================================== */
+
+.hero-actions a {
+  display: inline-block;
+  padding: 0.65rem 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease,
+              color 0.2s ease,
+              border-color 0.2s ease;
+}
+
+/* Primary button */
+.hero-actions .btn-primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: 2px solid var(--accent-color);
+}
+
+.hero-actions .btn-primary:hover {
+  background-color: #003f87;
+  border-color: #003f87;
+  color: #ffffff;
+}
+
+/* Secondary button */
+.hero-actions .btn-secondary {
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.hero-actions .btn-secondary:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+
+/* ==================================================
 HOMEPAGE MARKDOWN CONTENT ALIGNMENT FIX
 ================================================== */
 
