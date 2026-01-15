@@ -1,0 +1,16 @@
+{% assign navigation = site.data.navigation[include.nav] %}
+
+<ul class="visible-links">
+  {% for link in navigation %}
+    <li class="masthead__menu-item">
+      <a
+        href="{{ link.url | relative_url }}"
+        {% if link.external %}
+          target="_blank" rel="noopener noreferrer"
+        {% endif %}
+      >
+        {{ link.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
