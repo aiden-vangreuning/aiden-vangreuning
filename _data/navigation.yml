@@ -3,7 +3,7 @@ main:
     url: /#projects
 
   - title: "Resume"
-    url: /assets/pdf/Aiden_Van_Greuning_Portfolio_Resume_Jan_2026.pdf
+    url: https://aiden-vangreuning.github.io/aiden-vangreuning/assets/pdf/Aiden_Van_Greuning_Portfolio_Resume_Jan_2026.pdf
     external: true
 
   - title: "LinkedIn"
