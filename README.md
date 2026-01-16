@@ -24,5 +24,7 @@ Arduino IDE, microcontroller-based system development, sensor interfacing, flow 
 
 ## Contact Information
 ✉: aiden.vangreuning@torontomu.ca
+
 LinkedIn: https://www.linkedin.com/in/aiden-van-greuning-512944290/
+
 🌐: https://aiden-vangreuning.github.io/aiden-vangreuning
