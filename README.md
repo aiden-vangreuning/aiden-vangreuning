@@ -16,7 +16,7 @@ Passionate about advancing biomedical research and creating affordable healthcar
 ## 💻 Languages and Programming
 MATLAB, Arduino (C/C++), numerical computing, algorithm prototyping, data analysis scripting
 
-## 📈 Engineering, Modeling & Analysis Tools
+## 🫀📈 Engineering, Modeling & Analysis Tools
 MATLAB toolboxes, biomedical signal processing workflows, ECG analysis pipelines, digital filtering, feature extraction, computational modeling, fluid mechanics and biofluid modeling, radiation dose calculation, Monte Carlo simulation methods, treatment planning concepts, system characterization
 
 ## 🧪 Experimental, Embedded & Biomedical Systems
@@ -24,7 +24,5 @@ Arduino IDE, microcontroller-based system development, sensor interfacing, flow 
 
 ## Contact Information
 ✉: aiden.vangreuning@torontomu.ca
-
-LinkedIn: https://www.linkedin.com/in/aiden-van-greuning-512944290/
 
 🌐: https://aiden-vangreuning.github.io/aiden-vangreuning
