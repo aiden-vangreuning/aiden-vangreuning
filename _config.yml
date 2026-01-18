@@ -8,6 +8,8 @@ description: Biomedical Engineering Portfolio
 url: "https://aiden-vangreuning.github.io"
 baseurl: "/aiden-vangreuning"
 
+google_analytics: G-6XDVHZK5TM
+
 plugins:
   - jekyll-include-cache
 
