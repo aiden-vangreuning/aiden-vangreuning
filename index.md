@@ -24,7 +24,7 @@ title: Portfolio
 
       <div class="hero-actions">
         <a href="#projects" class="btn-primary">View Projects</a>
-       <a href="{{ site.baseurl }}/assets/pdf/Aiden_Van_Greuning_Portfolio_Resume_Jan_2026.pdf"
+       <a href="{{ site.baseurl }}/assets/pdf/Aiden_Van_Greuning_Portfolio_Resume_Feb_2026.pdf"
        class="btn-secondary"
        target="_blank"
        rel="noopener noreferrer">
