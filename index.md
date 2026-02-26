@@ -34,7 +34,7 @@ title: Portfolio
     </div>
 
     <div class="hero-image">
-      <img src="{{ site.baseurl }}/assets/images/profile.jpg"
+      <img src="{{ site.baseurl }}/assets/images/profile.JPG"
            alt="Aiden Van Greuning">
     </div>
 
