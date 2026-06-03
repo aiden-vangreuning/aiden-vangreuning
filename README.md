@@ -23,6 +23,6 @@ MATLAB toolboxes, biomedical signal processing workflows, ECG analysis pipelines
 Arduino IDE, microcontroller-based system development, sensor interfacing, flow and pressure sensing, peristaltic pump control, closed-loop system concepts, experimental prototyping, validation and performance testing, optical microscopy, cell culture workflows, microfluidics concepts, BioMEMS principles
 
 ## Contact Information
-✉: aiden.vangreuning@torontomu.ca
+✉: aiden.vangreuning@gmail.com
 
 🌐: https://aiden-vangreuning.github.io/aiden-vangreuning
