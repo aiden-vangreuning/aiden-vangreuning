@@ -13,14 +13,14 @@ Passionate about advancing biomedical research and creating affordable healthcar
 - 🧬🔬 Tissue engineering, BioMEMS and microscale systems
 - 🔍 Research-driven problem solving and collaboration
 
-## 💻 Languages and Programming
-MATLAB, Arduino (C/C++), numerical computing, algorithm prototyping, data analysis scripting
+## 💻 Languages & Programming
+MATLAB, Arduino (C/C++), data analysis scripting, feature extraction implementation
 
-## 🫀📈 Engineering, Modeling & Analysis Tools
-MATLAB toolboxes, biomedical signal processing workflows, ECG analysis pipelines, digital filtering, feature extraction, computational modeling, fluid mechanics and biofluid modeling, radiation dose calculation, Monte Carlo simulation methods, treatment planning concepts, system characterization
+## 🫀📈 Modeling & Analysis
+Biomedical signal processing, ECG signal analysis, digital filtering, computational modeling concepts, biofluid mechanics modeling, radiation dose calculation concepts
 
-## 🧪 Experimental, Embedded & Biomedical Systems
-Arduino IDE, microcontroller-based system development, sensor interfacing, flow and pressure sensing, peristaltic pump control, closed-loop system concepts, experimental prototyping, validation and performance testing, optical microscopy, cell culture workflows, microfluidics concepts, BioMEMS principles
+## 🧪 Experimental & Biomedical Systems
+Microcontroller-based development, sensor interfacing, experimental prototyping and validation, optical microscopy, cell culture workflows, BioMEMS principles
 
 ## Contact Information
 ✉: aiden.vangreuning@gmail.com
