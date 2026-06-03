@@ -113,4 +113,4 @@ I’m broadly interested in biomedical research and engineering — spanning med
 
 ---
 📫 **Contact**  
-<a href="mailto:aiden.vangreuning@torontomu.ca">aiden.vangreuning@torontomu.ca</a>
+<a href="mailto:aiden.vangreuning@gmail.com">aiden.vangreuning@gmail.com</a>
