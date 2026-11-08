@@ -11,9 +11,8 @@ This project involved the conceptual design of a **wearable BioMEMS-inspired sys
 The proposed system explored how miniature biosensing technologies could be embedded into everyday wearables to enable early detection of relapse risk and support proactive, user-centered behavioral intervention.
 
 {: .notice--info}
-**Project Type:** Academic BioMEMS Design Project  
+**Project Type:** Academic BioMEMS Design Project (Team: 5 members)  
 **Duration:** 4 months (1 academic semester)
-**Team:** 5 members
 **Focus Areas:** BioMEMS · Microfluidics · Biomedical Device Design · Signal Processing  
 **Role:** Market and competitive analysis, design verification against course requirements, literature research and concept contributions
 
