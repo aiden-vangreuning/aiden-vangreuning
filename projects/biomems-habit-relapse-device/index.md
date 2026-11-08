@@ -12,9 +12,10 @@ The proposed system explored how miniature biosensing technologies could be embe
 
 {: .notice--info}
 **Project Type:** Academic BioMEMS Design Project  
-**Duration:** 4 months (1 academic semester)  
+**Duration:** 4 months (1 academic semester)
+**Team:** 5 members
 **Focus Areas:** BioMEMS · Microfluidics · Biomedical Device Design · Signal Processing  
-**Role:** Concept development, system-level design contribution, literature research and feasibility analysis
+**Role:** Market and competitive analysis, design verification against course requirements, literature research and concept contributions
 
 ---
 
@@ -50,7 +51,8 @@ Design rationale was informed by BioMEMS literature, wearable sensor research an
 {: .notice--primary}
 **Key Contributions**
 - Contributed to the conceptualization of a multi-modal BioMEMS wearable for relapse risk prediction  
-- Evaluated the integration of neural and biochemical sensing within a single device architecture  
+- Reviewed the team’s integration of neural and biochemical sensing within a single device architecture
+- Developed and presented the market and competitive analysis and go-to-market model
 - Analyzed technical, physiological and usability constraints impacting wearable BioMEMS feasibility  
 - Translated BioMEMS theory and literature into a coherent system-level concept  
 
