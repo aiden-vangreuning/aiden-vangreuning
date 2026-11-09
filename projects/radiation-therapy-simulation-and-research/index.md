@@ -14,8 +14,7 @@ Through structured simulation labs and a final project, core concepts in radiati
 **Project Type:** Academic Simulation & Design Portfolio  
 **Duration:** 4 months (One academic term)  
 **Focus Areas:** Radiation Physics · Dose Calculation · Treatment Planning  
-**Role:** Simulation analysis, theoretical modeling, project design and technical reporting
-
+**Role:** Simulation labs and technical reporting; final project: Technical reporting, source verification and concept review.
 ---
 
 ## Simulation Laboratory Scope
@@ -34,11 +33,10 @@ The simulation labs focused on interpreting radiation behaviour through mathemat
 
 - Analysis of radiation interaction mechanisms  
 - Interpretation of detector response and signal behavior  
-- Dose estimation and validation using theoretical models  
-- Understanding system limitations and sources of uncertainty  
+- Dose estimation using Monte Carlo and analytical models  
+- Understanding system limitations and sources of uncertainty
 
-Simulation results were documented through structured lab reports emphasizing clarity, accuracy and reproducibility.
-
+Simulation results were documented in lab reports, some in full IEEE format and others as structured question-and-calculation reports.
 ---
 
 ## Final Project: Treatment Planning System Concept
@@ -83,7 +81,7 @@ The project emphasized system integration, clinical feasibility and future-facin
   
 ## Tools & Technologies
 **Radiation Physics · Dose Calculation · LINAC Systems**  
-**Monte Carlo Simulation · Treatment Planning Concepts**  
+**EGSnrc (BEAMnrc/BEAMdp) Monte Carlo simulation · Treatment Planning Concepts**  
 **Radiation Safety · Medical Physics Foundations**
 
 ---
