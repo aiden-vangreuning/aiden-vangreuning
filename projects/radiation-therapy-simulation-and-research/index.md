@@ -14,7 +14,7 @@ Through structured simulation labs and a final project, core concepts in radiati
 **Project Type:** Academic Simulation & Design Portfolio  
 **Duration:** 4 months (One academic term)  
 **Focus Areas:** Radiation Physics · Dose Calculation · Treatment Planning  
-**Role:** Simulation labs and technical reporting; final project: Technical reporting, source verification and concept review.
+**Role:** Simulation labs and technical reporting; Final project: technical reporting, source verification and concept review.
 ---
 
 ## Simulation Laboratory Scope
