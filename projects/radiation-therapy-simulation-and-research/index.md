@@ -15,6 +15,7 @@ Through structured simulation labs and a final project, core concepts in radiati
 **Duration:** 4 months (One academic term)  
 **Focus Areas:** Radiation Physics · Dose Calculation · Treatment Planning  
 **Role:** Simulation labs and technical reporting; Final project: technical reporting, source verification and concept review.
+
 ---
 
 ## Simulation Laboratory Scope
@@ -37,6 +38,7 @@ The simulation labs focused on interpreting radiation behaviour through mathemat
 - Understanding system limitations and sources of uncertainty
 
 Simulation results were documented in lab reports, some in full IEEE format and others as structured question-and-calculation reports.
+
 ---
 
 ## Final Project: Treatment Planning System Concept
