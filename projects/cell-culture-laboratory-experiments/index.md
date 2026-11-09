@@ -10,15 +10,15 @@ This project involved hands-on laboratory work in cell culturing and introductor
 
 Experiments emphasized proper laboratory technique, data-driven observation and clear technical documentation; forming a foundational skill set for biomedical research and wet-lab engineering applications.
 
-To illustrate the scope and quality of the laboratory work, a representative lab report is provided below as a sample of experimental execution, data analysis and technical documentation.
+To illustrate the scope and quality of the laboratory work, a representative lab report is provided below as a sample of post-lab analysis, literature research and experimental design.
 
 
 {: .notice--info}
 **Project Type:** Academic Laboratory Portfolio  
 **Duration:** 4 months (One academic term)  
 **Environment:** CL2 Wet Laboratory  
-**Focus Areas:** Cell Culture · Microscopy · Biomaterials · Experimental Analysis  
-**Role:** Experimental execution, data analysis and technical reporting
+**Focus Areas:** Cell Culture · Microscopy · Experimental Analysis  
+**Role:** Experimental execution in lab pairs, microscopy-based data collection and analysis, technical reporting
 
 ---
 
@@ -53,7 +53,7 @@ Collected data were analyzed and summarized through structured technical lab rep
 - Microscopy-based observation and analysis  
 - Experimental protocol execution under biosafety constraints  
 - Data-driven technical reporting  
-- Attention to laboratory safety and reproducibility  
+- Attention to laboratory safety and documentation  
 
 ---
 
@@ -64,10 +64,10 @@ Collected data were analyzed and summarized through structured technical lab rep
      rel="noopener">
      <strong>Representative Laboratory Report (PDF)</strong>
    </a><br>
-<em>Selected from multiple experiments conducted over the term.</em>
+<em>Lab 4 (Phagocytosis): post-lab questions and research section.</em>
 
 ## Tools & Technologies
-**Cell Culture Techniques · Optical Microscopy · Biomaterials**  
+**Cell Culture Techniques · Optical Microscopy**  
 **CL2 Laboratory Protocols · Experimental Documentation**
 
 ---
