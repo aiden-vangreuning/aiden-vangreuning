@@ -12,7 +12,7 @@ This project involved the independent design and development of a steady-flow pu
 {: .notice--info}
 **Project Type:** Independent Capstone Design and Prototype  
 **Duration:** 8 months (2 academic semesters)  
-**Focus Areas:** Pulsatile Flow Modeling · Embedded Control · Experimental Validation  
+**Focus Areas:** Flow Control · Systems Integration · Experimental Testing  
 **Role:** Sole designer, developer and analyst
 
 ---
