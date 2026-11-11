@@ -7,12 +7,10 @@ classes: project-page
 ---
 
 ## Overview
-This project involved the independent design and development of a low-cost pulsatile flow pump system to simulate physiologically realistic cerebrovascular blood flow for interventional neuroradiology training and experimental research applications.
-
-Typically assigned to a four-person team, the project was executed independently and focused on achieving accurate flow and pressure dynamics using accessible components and a modular, research-oriented system architecture.
+This project involved the independent design and development of a steady-flow pump system for interventional neuroradiology training, cerebrovascular simulation and experimental research applications. The original scope was pulsatile flow with pressure sensing; pulsatile flow proved unachievable with the low-cost pump, and the scope was narrowed to normal flow. Typically assigned to a four-person team, the project was executed independently and used accessible components.
 
 {: .notice--info}
-**Project Type:** Independent Capstone Design and Protoype  
+**Project Type:** Independent Capstone Design and Prototype  
 **Duration:** 8 months (2 academic semesters)  
 **Focus Areas:** Pulsatile Flow Modeling · Embedded Control · Experimental Validation  
 **Role:** Sole designer, developer and analyst
@@ -28,22 +26,21 @@ Commercial cerebrovascular flow simulators are often prohibitively expensive and
 The system integrates mechanical, electrical and computational components to achieve controlled pulsatile flow:
 
 - Peristaltic stepper motor pump driven by an Arduino-based control architecture  
-- Real-time flow sensing and signal processing for monitoring system behaviour  
+- Flow sensing and logging via Arduino  
 - Integration with a 3D-printed Circle of Willis vascular model  
 - Glycerol–water blood analog to approximate physiological viscosity  
 
-Custom control logic was implemented to regulate flow rate and pressure behaviour, enabling the simulation of physiologically relevant cerebrovascular conditions.
+Arduino code set pump speed from a calibration curve and logged flow, with pressure estimated from flow using Poiseuille’s law.
 
 ## Flow Modeling & Data Analysis
-Physiological flow and pressure dynamics were modeled and evaluated using fundamental fluid mechanics principles, including **Poiseuille’s Law**. Flow sensor data were collected and analyzed to validate system performance, repeatability and stability under controlled experimental conditions.
+Physiological flow and pressure dynamics were modeled and evaluated using fundamental fluid mechanics principles, including **Poiseuille’s Law**. Flow sensor data was collected and analyzed under controlled experimental conditions to check against collected volume. Results showed inconsistent pump output, analyzed in the report. 
 
 {: .notice--primary}
 **Key Outcomes & Contributions**
-- Fully functional cerebrovascular flow simulation system at significantly reduced cost  
-- Physiologically realistic flow and pressure dynamics using a blood analog fluid  
-- Repeatable and stable performance suitable for experimental training applications  
-- Modular platform supporting future catheter-based and sensing extensions  
-
+- A working steady-flow system at ~$600 in components  
+- A documented analysis of why pulsatile flow and pressure sensing failed  
+- Literature-based flow targets for the MCA and ICA  
+- A cost table and mass-production considerations
 ---
 
 ## System Visualization
@@ -88,7 +85,7 @@ Physiological flow and pressure dynamics were modeled and evaluated using fundam
 ---
 
 ## Reflection
-This project strengthened my ability to translate theoretical concepts into validated biomedical systems through iterative prototyping, embedded control development and experimental validation. Completing the project independently reinforced system-level thinking, cost-aware engineering and technical communication—skills directly applicable to biomedical research, device development and experimental engineering roles.
+This project strengthened my ability to translate theoretical concepts into working biomedical prototypes through iterative prototyping, embedded control development and experimental validation. Completing the project independently reinforced system-level thinking, cost-aware engineering and technical communication—skills directly applicable to biomedical research, device development and experimental engineering roles.
 
 ---
 
