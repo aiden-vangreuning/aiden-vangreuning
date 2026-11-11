@@ -1,20 +1,20 @@
 ---
 layout: single
-title: ECG Signal Processing for Cerebromicrovascular Disease Analysis
+title: ECG Signal Processing in Elderly Diabetes and Cerebromicrovascular Disease
 permalink: /projects/signal-processing-cerebromicrovascular-disease/
 classes: project-page
 ---
 
 ## Overview
-This project focused on the processing and analysis of electrocardiogram (ECG) signals acquired from elderly diabetic patients with cerebral microvascular disease. Diabetes-related cardiovascular and cerebrovascular pathology introduces characteristic abnormalities in ECG signals, motivating the development of automated methods for robust heartbeat detection, waveform feature extraction and quantitative classification.
+This project focused on the processing and analysis of electrocardiogram (ECG) signals acquired from elderly control and diabetic subjects in the CVES cerebromicrovascular disease database. Diabetes-related cardiovascular and cerebrovascular pathology introduces characteristic abnormalities in ECG signals, motivating the development of automated methods for robust heartbeat detection, waveform feature extraction and quantitative classification.
 
-Over the final quarter of the semester, a complete ECG signal processing pipeline was implemented to detect cardiac events, identify PQRST waveform features and evaluate classification performance using machine learning techniques. Results were benchmarked against published literature.
+Over the final quarter of the semester, a complete ECG signal processing pipeline was implemented to detect QRS events, identify PQRST features and classify diabetic versus control subjects with machine learning; I handled the feature analysis stage. Results were compared with published literature.
 
 {: .notice--info}
 **Project Type:** Academic Signal Processing Project  
 **Duration:** 1 month  
 **Focus Areas:** Biomedical Signal Processing · Feature Extraction · Machine Learning  
-**Role:** Signal processing, algorithm implementation, data analysis
+**Role:** Feature analysis (PQRST interval statistics); Technical Writing
 
 ---
 
@@ -26,12 +26,12 @@ The objective of this project was to design and evaluate a robust ECG processing
 ---
 
 ## Design Rationale
-ECG signals are highly susceptible to noise from power-line interference, baseline wander and muscle activity; requiring careful preprocessing prior to analysis. The Pan–Tompkins algorithm was selected for heartbeat detection due to its robustness, interpretability and widespread use in clinical ECG analysis.
+ECG signals are highly susceptible to noise from power-line interference, baseline wander and muscle activity; requiring careful preprocessing prior to analysis. The Pan–Tompkins algorithm was selected for heartbeat detection as a widely used QRS detection method. 
 
 Time-domain features derived from PQRST waveforms—particularly RR, ST and QT intervals—were targeted due to their established relevance in assessing cardiac function and autonomic regulation. These features formed the basis for downstream machine learning classification between control and diabetic patient groups.
 
 ## Signal Processing & Analysis Pipeline
-ECG signals were obtained from the CVES database, consisting of recordings from elderly control and diabetic patients with cerebral microvascular disease. Signals were sampled at 1000 Hz over extended monitoring periods, with representative subsets selected for detailed analysis.
+ECG signals were obtained from the CVES database, consisting of recordings from elderly control and diabetic subjects. 28 of 120 recordings (13 randomly selected control, 15 diabetic), were sampled at 1000 Hz over 24 hours and analyzed.
 
 The processing pipeline consisted of:
 - Removal of power-line interference using a notch filter
@@ -40,23 +40,20 @@ The processing pipeline consisted of:
 - Extraction of clinically relevant time-domain features
 - Machine learning–based classification and performance evaluation
 
-Signal processing and feature extraction were implemented in **MATLAB**, emphasizing algorithm transparency and reproducibility.
+Signal processing and feature extraction were implemented in **MATLAB**.
 
 ## Feature Extraction & Machine Learning
-Extracted features included heart rate variability (RR intervals), ST and QT interval statistics and associated mean and standard deviation measures. Feature selection prioritized parameters known to exhibit sensitivity to diabetic cardiovascular pathology.
+Extracted features were heart rate, the mean and SD of ST and QT intervals, and the SD of RR intervals, selected from published findings on diabetic ECG changes. Feature selection prioritized parameters known to exhibit sensitivity to diabetic cardiovascular pathology.
 
-Multiple machine learning models were evaluated, including **Logistic Regression**, **Decision Tree** and **Linear Discriminant** classifiers. Logistic regression demonstrated the most reliable performance and was selected for final evaluation due to its interpretability and consistent classification behaviour across the dataset.
-
+Multiple machine learning models were evaluated, including **Logistic Regression**, **Decision Tree** and **Linear Discriminant** classifiers. Logistic regression gave the highest accuracy of the three models and was selected for final evaluation.
 
 {: .notice--primary}
 **Key Results**
-- **66.7% sensitivity** in heartbeat event detection  
-- **62.3% validation accuracy** using logistic regression classification  
-- Performance approximately **20% above reported literature benchmarks** for comparable ECG datasets  
+- **66.7% sensitivity and 53.9% specificity** (diabetic vs control, 28 recordings)  
+- **62.3% validation accuracy (5-fold cross-validation), 54% testing accuracy, AUC 0.60**  
+- Compared with a published machine learning model for diabetes detection on non-ECG data (over 138,000 participants; 46.3% sensitivity, 80.9% test accuracy, AUC 0.79), our sensitivity was about **20 percentage points higher**, but accuracy, specificity and AUC were lower  
 
-Model evaluation was performed using **5-fold cross-validation** due to the limited dataset size, with approximately **23% of the data held out for testing**. Results demonstrated effective feature extraction and competitive classification performance despite signal variability and patient-specific differences.
-
-Logistic regression was selected for final evaluation due to its interpretability and consistent performance across cross-validation folds.
+Model evaluation was performed using **5-fold cross-validation** due to the limited dataset size, with approximately **23% of the data held out for testing**. Feature trends matched published findings (higher ST and QT in diabetic subjects); classification performance was modest, limited by the small dataset.
 
 ---
 
@@ -94,7 +91,7 @@ Logistic regression was selected for final evaluation due to its interpretabilit
 </div>
 
 ## Tools & Technologies
-**MATLAB · Pan–Tompkins Algorithm · ECG Interpretation**  
+**MATLAB · Pan–Tompkins Algorithm**  
 **Signal Processing · Feature Extraction · Machine Learning**  
 **Biomedical Data Analysis**
 
@@ -106,7 +103,7 @@ This study was conducted on a limited subset of ECG recordings, which constraine
 Future work would benefit from larger, more diverse ECG datasets to improve statistical power and model robustness. Incorporating additional features, alternative classifiers and temporal modeling approaches may further enhance performance. Extending the pipeline to multi-lead ECG data and longer-term rhythm analysis could also provide more comprehensive clinical insight.
 
 ## Reflection
-This project strengthened my ability to translate theoretical signal processing concepts into functional analytical pipelines for real biomedical data. It reinforced careful algorithm implementation, quantitative validation and clear technical communication—skills directly applicable to biomedical research, medical signal analysis and data-driven healthcare applications.
+This project strengthened my ability to translate theoretical signal processing concepts into functional analytical pipelines for real biomedical data. It reinforced careful algorithm implementation and clear technical communication; skills directly applicable to biomedical research, medical signal analysis and data-driven healthcare applications.
 
 ---
 
