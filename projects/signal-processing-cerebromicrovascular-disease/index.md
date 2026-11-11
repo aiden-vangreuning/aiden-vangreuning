@@ -14,7 +14,7 @@ Over the final quarter of the semester, a complete ECG signal processing pipelin
 **Project Type:** Academic Signal Processing Project  
 **Duration:** 1 month  
 **Focus Areas:** Biomedical Signal Processing · Feature Extraction · Machine Learning  
-**Role:** Feature analysis (PQRST interval statistics); Technical Writing
+**Role:** Feature analysis (PQRST interval statistics), Technical Writing, Literature Review
 
 ---
 
