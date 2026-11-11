@@ -85,7 +85,7 @@ I’m broadly interested in biomedical research and engineering — spanning med
     </a>
 
     <a href="{{ site.baseurl }}/projects/signal-processing-cerebromicrovascular-disease" class="project-card">
-      <h3>ECG Signal Processing for Cerebromicrovascular Disease Analysis</h3>
+      <h3>ECG Signal Processing in Elderly Diabetes and Cerebromicrovascular Disease</h3>
       <p class="project-meta">Data Analysis & Algorithms</p>
       <p>
         Applied signal processing and machine learning techniques to ECG data to extract clinically relevant features and evaluate classification performance in diabetic cerebromicrovascular disease.
